@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bonihua Pronunciation Traps",
+  "description": "Схема открытого датасета Бонихуа о типичных ошибках русскоязычных в произношении китайского языка.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "id",
+    "slug",
+    "name",
+    "desc",
+    "when",
+    "how",
+    "examples",
+    "tags",
+    "pair",
+    "minimal_pairs"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Версия записи в semver-формате."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^prontrap:[a-z0-9-]+$",
+      "description": "Уникальный идентификатор записи."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,62}$",
+      "description": "Slug для URL и внутренних ссылок."
+    },
+    "name": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "desc": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "body": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "when": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "how": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "examples": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/localizedText"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["student", "tutor", "work"]
+      }
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pair": {
+      "type": "string",
+      "description": "Обозначение конфликтующей пары тонов, звуков или паттернов."
+    },
+    "minimal_pairs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["bad", "good"],
+        "properties": {
+          "bad": {
+            "type": "string"
+          },
+          "good": {
+            "type": "string"
+          },
+          "note": {
+            "$ref": "#/$defs/localizedText"
+          }
+        }
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "string"
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "cite_as_ru": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ru"],
+      "properties": {
+        "ru": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
