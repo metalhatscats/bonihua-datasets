@@ -22,6 +22,7 @@
 Как цитировать:
 
 - Бонихуа. База упражнений по китайскому — навык, уровень, время. https://bonihua.ru/datasets/exercise-bank
+- Бонихуа. База упражнений по китайскому — навык, уровень, время. https://bonihua.by/datasets/exercise-bank
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/exercise-bank
 
 Лицензия:

@@ -22,6 +22,7 @@
 Как цитировать:
 
 - Бонихуа. Грамматика китайского — темы и типовые ошибки. https://bonihua.ru/datasets/grammar-topics
+- Бонихуа. Грамматика китайского — темы и типовые ошибки. https://bonihua.by/datasets/grammar-topics
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/grammar-topics
 
 Лицензия:

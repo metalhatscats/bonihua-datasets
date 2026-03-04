@@ -22,6 +22,7 @@
 Как цитировать:
 
 - Бонихуа. Шаблоны диалогов на китайском — по уровням. https://bonihua.ru/datasets/dialog-templates
+- Бонихуа. Шаблоны диалогов на китайском — по уровням. https://bonihua.by/datasets/dialog-templates
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates
 
 Лицензия:

@@ -22,6 +22,7 @@
 Как цитировать:
 
 - Бонихуа. HSK словарь по уровням — тематические наборы. https://bonihua.ru/datasets/hsk-vocab-sets
+- Бонихуа. HSK словарь по уровням — тематические наборы. https://bonihua.by/datasets/hsk-vocab-sets
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-vocab-sets
 
 Лицензия:

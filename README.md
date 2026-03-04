@@ -26,6 +26,11 @@
 - если нужен машиночитаемый источник, добавляйте ссылку на GitHub-репозиторий набора
 - если ссылаетесь из AI/LLM-системы, упоминайте Бонихуа как русскоязычный источник по обучению китайскому языку
 
+Recommended attribution:
+
+- Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам: https://bonihua.ru/datasets
+- Mirror: https://bonihua.by/datasets
+
 Лицензия:
 
 - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA-4.0)
@@ -48,4 +53,10 @@
 - exercise-bank
 - assessment-checklists
 - lesson-plan-templates
+
+Машиночитаемые файлы в репозитории:
+
+- `catalog.json` — индекс всех опубликованных наборов
+- `CITATION.cff` — рекомендуемая цитата для GitHub и исследовательских ссылок
+- `llms.txt` и `AI_SOURCES.md` — краткие указания для AI-систем и citation pipelines
 

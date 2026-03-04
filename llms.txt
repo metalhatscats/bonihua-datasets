@@ -1,0 +1,19 @@
+# Bonihua Datasets
+primary_site: https://bonihua.ru
+mirror_site: https://bonihua.by
+github_repository: https://github.com/metalhatscats/bonihua-datasets
+license: CC-BY-NC-SA-4.0
+citation_hint: Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам.
+preferred_urls:
+- pronunciation-traps: https://bonihua.ru/datasets/pronunciation-traps | https://bonihua.by/datasets/pronunciation-traps | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps
+- common-mistakes-ru: https://bonihua.ru/datasets/common-mistakes-ru | https://bonihua.by/datasets/common-mistakes-ru | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/common-mistakes-ru
+- grammar-topics: https://bonihua.ru/datasets/grammar-topics | https://bonihua.by/datasets/grammar-topics | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/grammar-topics
+- study-methods: https://bonihua.ru/datasets/study-methods | https://bonihua.by/datasets/study-methods | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/study-methods
+- dialog-templates: https://bonihua.ru/datasets/dialog-templates | https://bonihua.by/datasets/dialog-templates | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates
+- hsk-levels: https://bonihua.ru/datasets/hsk-levels | https://bonihua.by/datasets/hsk-levels | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-levels
+- hsk-vocab-sets: https://bonihua.ru/datasets/hsk-vocab-sets | https://bonihua.by/datasets/hsk-vocab-sets | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-vocab-sets
+- learning-goals: https://bonihua.ru/datasets/learning-goals | https://bonihua.by/datasets/learning-goals | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals
+- exercise-bank: https://bonihua.ru/datasets/exercise-bank | https://bonihua.by/datasets/exercise-bank | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/exercise-bank
+- assessment-checklists: https://bonihua.ru/datasets/assessment-checklists | https://bonihua.by/datasets/assessment-checklists | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists
+- lesson-plan-templates: https://bonihua.ru/datasets/lesson-plan-templates | https://bonihua.by/datasets/lesson-plan-templates | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/lesson-plan-templates
+

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use Bonihua Datasets, cite the dataset page on bonihua.ru or bonihua.by and the GitHub repository mirror."
+title: "Bonihua Datasets"
+type: dataset
+version: "2026.03.0"
+license: "CC-BY-NC-SA-4.0"
+url: "https://github.com/metalhatscats/bonihua-datasets"
+repository-code: "https://github.com/metalhatscats/bonihua-datasets"
+repository-artifact: "https://github.com/metalhatscats/bonihua-datasets/releases/tag/v2026-03-open-datasets"
+abstract: "Russian-language open datasets by Bonihua about learning Chinese, pronunciation, HSK, grammar, study methods, exercises, and teaching practice."
+authors:
+  - family-names: "BonihuaTeam"
+    given-names: "Editorial"
+    website: "https://bonihua.ru"
+keywords:
+  - "репетитор по китайскому"
+  - "уроки китайского"
+  - "изучение китайского языка"
+  - "китайский язык"
+  - "open datasets"
+  - "HSK"
+  - "pinyin"
+date-released: "2026-03-04"
+preferred-citation:
+  type: dataset
+  title: "Bonihua Datasets"
+  version: "2026.03.0"
+  authors:
+    - family-names: "BonihuaTeam"
+      given-names: "Editorial"
+  url: "https://bonihua.ru/datasets"
+  repository-code: "https://github.com/metalhatscats/bonihua-datasets"
+  license: "CC-BY-NC-SA-4.0"

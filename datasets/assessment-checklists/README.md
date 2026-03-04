@@ -22,6 +22,7 @@
 Как цитировать:
 
 - Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.ru/datasets/assessment-checklists
+- Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.by/datasets/assessment-checklists
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists
 
 Лицензия:

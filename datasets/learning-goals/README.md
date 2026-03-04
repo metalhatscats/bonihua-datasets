@@ -22,6 +22,7 @@
 Как цитировать:
 
 - Бонихуа. Цели обучения китайскому — понятные треки. https://bonihua.ru/datasets/learning-goals
+- Бонихуа. Цели обучения китайскому — понятные треки. https://bonihua.by/datasets/learning-goals
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals
 
 Лицензия:
