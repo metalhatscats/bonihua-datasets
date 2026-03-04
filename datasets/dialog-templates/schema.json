@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/dialogTemplates",
   "definitions": {
-    "pronunciationTraps": {
+    "dialogTemplates": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/dialogTemplates/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^dialog:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/dialogTemplates/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/dialogTemplates/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/dialogTemplates/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/dialogTemplates/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/dialogTemplates/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,41 +135,42 @@
             "additionalProperties": false
           }
         },
-        "pair": {
+        "level_id": {
           "type": "string",
-          "minLength": 1
+          "pattern": "^examlevel:[a-z0-9-]+$"
         },
-        "related_skill_ids": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "^skill:[a-z0-9-]+$"
-          }
+        "scenario": {
+          "$ref": "#/definitions/dialogTemplates/properties/name"
         },
-        "minimal_pairs": {
+        "lines": {
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
-              "bad": {
+              "role": {
                 "type": "string",
                 "minLength": 1
               },
-              "good": {
+              "ru": {
                 "type": "string",
                 "minLength": 1
               },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
+              "zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pinyin": {
+                "type": "string",
+                "minLength": 1
               }
             },
             "required": [
-              "bad",
-              "good"
+              "role",
+              "ru"
             ],
             "additionalProperties": false
           },
-          "minItems": 1
+          "minItems": 2
         }
       },
       "required": [
@@ -182,8 +183,9 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "level_id",
+        "scenario",
+        "lines"
       ],
       "additionalProperties": false
     }

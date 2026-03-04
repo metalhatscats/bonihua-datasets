@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/lessonPlanTemplates",
   "definitions": {
-    "pronunciationTraps": {
+    "lessonPlanTemplates": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/lessonPlanTemplates/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^lessonplan:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/lessonPlanTemplates/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/lessonPlanTemplates/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/lessonPlanTemplates/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/lessonPlanTemplates/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/lessonPlanTemplates/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,41 +135,47 @@
             "additionalProperties": false
           }
         },
-        "pair": {
+        "level_id": {
           "type": "string",
-          "minLength": 1
+          "pattern": "^examlevel:[a-z0-9-]+$"
         },
-        "related_skill_ids": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "^skill:[a-z0-9-]+$"
-          }
+        "goal_id": {
+          "type": "string",
+          "pattern": "^goal:[a-z0-9-]+$"
         },
-        "minimal_pairs": {
+        "duration_min": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "blocks": {
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
-              "bad": {
-                "type": "string",
-                "minLength": 1
+              "title": {
+                "$ref": "#/definitions/lessonPlanTemplates/properties/name"
               },
-              "good": {
-                "type": "string",
-                "minLength": 1
+              "duration_min": {
+                "type": "integer",
+                "exclusiveMinimum": 0
               },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
+              "focus_skill_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               }
             },
             "required": [
-              "bad",
-              "good"
+              "title",
+              "duration_min"
             ],
             "additionalProperties": false
           },
-          "minItems": 1
+          "minItems": 2
+        },
+        "homework": {
+          "$ref": "#/definitions/lessonPlanTemplates/properties/name"
         }
       },
       "required": [
@@ -182,8 +188,10 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "level_id",
+        "goal_id",
+        "duration_min",
+        "blocks"
       ],
       "additionalProperties": false
     }

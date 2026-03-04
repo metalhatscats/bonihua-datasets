@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/assessmentChecklists",
   "definitions": {
-    "pronunciationTraps": {
+    "assessmentChecklists": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/assessmentChecklists/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^assessment:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/assessmentChecklists/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/assessmentChecklists/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/assessmentChecklists/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/assessmentChecklists/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/assessmentChecklists/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,41 +135,28 @@
             "additionalProperties": false
           }
         },
-        "pair": {
+        "level_id": {
           "type": "string",
-          "minLength": 1
+          "pattern": "^examlevel:[a-z0-9-]+$"
         },
-        "related_skill_ids": {
+        "skill_ids": {
           "type": "array",
           "items": {
             "type": "string",
             "pattern": "^skill:[a-z0-9-]+$"
-          }
-        },
-        "minimal_pairs": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "bad": {
-                "type": "string",
-                "minLength": 1
-              },
-              "good": {
-                "type": "string",
-                "minLength": 1
-              },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
-              }
-            },
-            "required": [
-              "bad",
-              "good"
-            ],
-            "additionalProperties": false
           },
           "minItems": 1
+        },
+        "checklist": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/assessmentChecklists/properties/name"
+          },
+          "minItems": 3
+        },
+        "scoring_scale": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "required": [
@@ -182,8 +169,9 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "level_id",
+        "skill_ids",
+        "checklist"
       ],
       "additionalProperties": false
     }

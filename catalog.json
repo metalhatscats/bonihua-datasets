@@ -1,0 +1,112 @@
+[
+  {
+    "id": "pronunciation-traps",
+    "title": "Произношение китайского — ловушки и пары звуков",
+    "description": "Проблемные пары звуков и тоновые ловушки, из‑за которых речь становится непонятной. Карточки помогают услышать разницу, поставить артикуляцию и закрепить её в минимальных парах.",
+    "source_url": "https://bonihua.ru/datasets/pronunciation-traps",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 45,
+    "path": "datasets/pronunciation-traps/dataset.jsonl"
+  },
+  {
+    "id": "common-mistakes-ru",
+    "title": "Типичные ошибки русскоязычных — китайский без ловушек",
+    "description": "Список ошибок, которые чаще всего совершают русскоязычные: тоны, порядок слов, счётные слова. Каждая карточка показывает, почему ошибка возникает и как её исправить на практике.",
+    "source_url": "https://bonihua.ru/datasets/common-mistakes-ru",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/common-mistakes-ru",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 4,
+    "path": "datasets/common-mistakes-ru/dataset.jsonl"
+  },
+  {
+    "id": "grammar-topics",
+    "title": "Грамматика китайского — темы и типовые ошибки",
+    "description": "Грамматические темы по уровням HSK: что означает конструкция, когда она нужна и какие ошибки встречаются чаще всего. Полезно ученикам, которые путаются в частицах, и преподавателям, которым нужен чёткий план объяснений.",
+    "source_url": "https://bonihua.ru/datasets/grammar-topics",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/grammar-topics",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 4,
+    "path": "datasets/grammar-topics/dataset.jsonl"
+  },
+  {
+    "id": "study-methods",
+    "title": "Методики обучения китайскому — что работает",
+    "description": "Практические методики обучения: shadowing, интервальные повторения, фразовые блоки и микро‑дриллы. Каждая карточка объясняет, кому метод подходит, как его внедрять и какой результат ждать.",
+    "source_url": "https://bonihua.ru/datasets/study-methods",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/study-methods",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 4,
+    "path": "datasets/study-methods/dataset.jsonl"
+  },
+  {
+    "id": "dialog-templates",
+    "title": "Шаблоны диалогов на китайском — по уровням",
+    "description": "Готовые сценарии диалогов: знакомство, заказ, перенос встречи. Помогают быстро говорить по делу, а не строить фразу в голове каждую минуту.",
+    "source_url": "https://bonihua.ru/datasets/dialog-templates",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 3,
+    "path": "datasets/dialog-templates/dataset.jsonl"
+  },
+  {
+    "id": "hsk-levels",
+    "title": "HSK уровни — требования, навыки, сроки",
+    "description": "Разбор уровней HSK 1–6: что реально умеет ученик, какие навыки критичны, сколько времени обычно нужно и где чаще всего спотыкаются. Полезно для выбора цели, планирования занятий и подготовки к экзамену без лишней воды.",
+    "source_url": "https://bonihua.ru/datasets/hsk-levels",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-levels",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 6,
+    "path": "datasets/hsk-levels/dataset.jsonl"
+  },
+  {
+    "id": "hsk-vocab-sets",
+    "title": "HSK словарь по уровням — тематические наборы",
+    "description": "Срезы словаря HSK по уровням и темам: что реально нужно для диалогов, чтения и экзамена. Наборы помогают учить слова в контексте, а не бессвязным списком, и быстрее выходить на практику.",
+    "source_url": "https://bonihua.ru/datasets/hsk-vocab-sets",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-vocab-sets",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 4,
+    "path": "datasets/hsk-vocab-sets/dataset.jsonl"
+  },
+  {
+    "id": "learning-goals",
+    "title": "Цели обучения китайскому — понятные треки",
+    "description": "Каталог целей обучения: путешествия, HSK, рабочая переписка, разговорные встречи. Помогает выбрать маршрут и критерии результата, а не учиться «в бесконечность».",
+    "source_url": "https://bonihua.ru/datasets/learning-goals",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 6,
+    "path": "datasets/learning-goals/dataset.jsonl"
+  },
+  {
+    "id": "exercise-bank",
+    "title": "База упражнений по китайскому — навык, уровень, время",
+    "description": "Упражнения по навыкам и уровням: фонетика, говорение, письмо, чтение. Каждое упражнение помечено по времени и цели, чтобы легко собрать урок или план практики.",
+    "source_url": "https://bonihua.ru/datasets/exercise-bank",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/exercise-bank",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 4,
+    "path": "datasets/exercise-bank/dataset.jsonl"
+  },
+  {
+    "id": "assessment-checklists",
+    "title": "Диагностика уровня китайского — чек‑листы",
+    "description": "Чек‑листы для оценки уровня и прогресса: что проверить, как оценить и какие признаки уровня считать ключевыми. Полезно преподавателям и ученикам перед сменой уровня или цели.",
+    "source_url": "https://bonihua.ru/datasets/assessment-checklists",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 3,
+    "path": "datasets/assessment-checklists/dataset.jsonl"
+  },
+  {
+    "id": "lesson-plan-templates",
+    "title": "Шаблоны планов уроков китайского",
+    "description": "Готовые планы уроков по уровням и целям: структура, блоки, длительность, фокус навыков. Помогают преподавателю собрать урок без лишних импровизаций и держать результат.",
+    "source_url": "https://bonihua.ru/datasets/lesson-plan-templates",
+    "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/lesson-plan-templates",
+    "license": "CC-BY-NC-SA-4.0",
+    "item_count": 3,
+    "path": "datasets/lesson-plan-templates/dataset.jsonl"
+  }
+]

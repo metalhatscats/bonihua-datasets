@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/hskLevels",
   "definitions": {
-    "pronunciationTraps": {
+    "hskLevels": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/hskLevels/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^hsklevel:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/hskLevels/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/hskLevels/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/hskLevels/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/hskLevels/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/hskLevels/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,41 +135,47 @@
             "additionalProperties": false
           }
         },
-        "pair": {
+        "exam_id": {
           "type": "string",
-          "minLength": 1
+          "pattern": "^exam:[a-z0-9-]+$"
         },
-        "related_skill_ids": {
+        "exam_level_id": {
+          "type": "string",
+          "pattern": "^examlevel:[a-z0-9-]+$"
+        },
+        "target_skill_ids": {
           "type": "array",
           "items": {
             "type": "string",
             "pattern": "^skill:[a-z0-9-]+$"
-          }
-        },
-        "minimal_pairs": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "bad": {
-                "type": "string",
-                "minLength": 1
-              },
-              "good": {
-                "type": "string",
-                "minLength": 1
-              },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
-              }
-            },
-            "required": [
-              "bad",
-              "good"
-            ],
-            "additionalProperties": false
           },
           "minItems": 1
+        },
+        "focus_topic_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^topic:[a-z0-9-]+$"
+          }
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/hskLevels/properties/name"
+          },
+          "minItems": 1
+        },
+        "study_hours": {
+          "type": "string",
+          "minLength": 1
+        },
+        "typical_duration_weeks": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "approx_vocab": {
+          "type": "integer",
+          "exclusiveMinimum": 0
         }
       },
       "required": [
@@ -182,8 +188,11 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "exam_id",
+        "exam_level_id",
+        "target_skill_ids",
+        "requirements",
+        "study_hours"
       ],
       "additionalProperties": false
     }

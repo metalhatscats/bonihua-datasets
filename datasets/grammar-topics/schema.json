@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/grammarTopics",
   "definitions": {
-    "pronunciationTraps": {
+    "grammarTopics": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/grammarTopics/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^grammar:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/grammarTopics/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/grammarTopics/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/grammarTopics/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/grammarTopics/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/grammarTopics/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,9 +135,13 @@
             "additionalProperties": false
           }
         },
-        "pair": {
-          "type": "string",
-          "minLength": 1
+        "level_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^examlevel:[a-z0-9-]+$"
+          },
+          "minItems": 1
         },
         "related_skill_ids": {
           "type": "array",
@@ -146,26 +150,29 @@
             "pattern": "^skill:[a-z0-9-]+$"
           }
         },
-        "minimal_pairs": {
+        "pattern": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mistakes": {
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
-              "bad": {
-                "type": "string",
-                "minLength": 1
+              "problem": {
+                "$ref": "#/definitions/grammarTopics/properties/name"
               },
-              "good": {
-                "type": "string",
-                "minLength": 1
+              "fix": {
+                "$ref": "#/definitions/grammarTopics/properties/name"
               },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
+              "example": {
+                "$ref": "#/definitions/grammarTopics/properties/name"
               }
             },
             "required": [
-              "bad",
-              "good"
+              "problem",
+              "fix",
+              "example"
             ],
             "additionalProperties": false
           },
@@ -182,8 +189,9 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "level_ids",
+        "pattern",
+        "mistakes"
       ],
       "additionalProperties": false
     }

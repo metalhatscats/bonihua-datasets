@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/studyMethods",
   "definitions": {
-    "pronunciationTraps": {
+    "studyMethods": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/studyMethods/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^studymethod:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/studyMethods/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/studyMethods/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/studyMethods/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/studyMethods/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/studyMethods/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,41 +135,36 @@
             "additionalProperties": false
           }
         },
-        "pair": {
-          "type": "string",
-          "minLength": 1
-        },
-        "related_skill_ids": {
+        "target_skill_ids": {
           "type": "array",
           "items": {
             "type": "string",
             "pattern": "^skill:[a-z0-9-]+$"
           }
         },
-        "minimal_pairs": {
+        "recommended_for": {
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "bad": {
-                "type": "string",
-                "minLength": 1
-              },
-              "good": {
-                "type": "string",
-                "minLength": 1
-              },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
-              }
-            },
-            "required": [
-              "bad",
-              "good"
-            ],
-            "additionalProperties": false
+            "$ref": "#/definitions/studyMethods/properties/name"
           },
           "minItems": 1
+        },
+        "protocol_steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/studyMethods/properties/name"
+          },
+          "minItems": 2
+        },
+        "time_per_week": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/studyMethods/properties/name"
+          }
         }
       },
       "required": [
@@ -182,8 +177,8 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "recommended_for",
+        "protocol_steps"
       ],
       "additionalProperties": false
     }

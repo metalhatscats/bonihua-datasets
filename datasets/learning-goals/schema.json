@@ -1,7 +1,7 @@
 {
-  "$ref": "#/definitions/pronunciationTraps",
+  "$ref": "#/definitions/learningGoals",
   "definitions": {
-    "pronunciationTraps": {
+    "learningGoals": {
       "type": "object",
       "properties": {
         "version": {
@@ -13,7 +13,7 @@
           "format": "date-time"
         },
         "updated_at": {
-          "$ref": "#/definitions/pronunciationTraps/properties/created_at"
+          "$ref": "#/definitions/learningGoals/properties/created_at"
         },
         "license": {
           "type": "string"
@@ -42,7 +42,7 @@
         },
         "id": {
           "type": "string",
-          "pattern": "^prontrap:[a-z0-9-]+$"
+          "pattern": "^goal:[a-z0-9-]+$"
         },
         "slug": {
           "type": "string",
@@ -70,21 +70,21 @@
           "additionalProperties": false
         },
         "desc": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/learningGoals/properties/name"
         },
         "body": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/learningGoals/properties/name"
         },
         "when": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/learningGoals/properties/name"
         },
         "how": {
-          "$ref": "#/definitions/pronunciationTraps/properties/name"
+          "$ref": "#/definitions/learningGoals/properties/name"
         },
         "examples": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/pronunciationTraps/properties/name"
+            "$ref": "#/definitions/learningGoals/properties/name"
           },
           "minItems": 1,
           "maxItems": 3
@@ -135,9 +135,9 @@
             "additionalProperties": false
           }
         },
-        "pair": {
+        "recommended_level_id": {
           "type": "string",
-          "minLength": 1
+          "pattern": "^examlevel:[a-z0-9-]+$"
         },
         "related_skill_ids": {
           "type": "array",
@@ -146,30 +146,12 @@
             "pattern": "^skill:[a-z0-9-]+$"
           }
         },
-        "minimal_pairs": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "bad": {
-                "type": "string",
-                "minLength": 1
-              },
-              "good": {
-                "type": "string",
-                "minLength": 1
-              },
-              "note": {
-                "$ref": "#/definitions/pronunciationTraps/properties/name"
-              }
-            },
-            "required": [
-              "bad",
-              "good"
-            ],
-            "additionalProperties": false
-          },
-          "minItems": 1
+        "time_frame_weeks": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "outcome": {
+          "$ref": "#/definitions/learningGoals/properties/name"
         }
       },
       "required": [
@@ -182,8 +164,7 @@
         "how",
         "examples",
         "tags",
-        "pair",
-        "minimal_pairs"
+        "outcome"
       ],
       "additionalProperties": false
     }
