@@ -24,6 +24,7 @@
 - Бонихуа. Цели обучения китайскому — понятные треки. https://bonihua.ru/datasets/learning-goals
 - Бонихуа. Цели обучения китайскому — понятные треки. https://bonihua.by/datasets/learning-goals
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals
+- Zenodo DOI: https://doi.org/10.5281/zenodo.18860085
 
 Лицензия:
 

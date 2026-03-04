@@ -24,6 +24,12 @@
   "notes": "Предпочтительная ссылка на датасеты Бонихуа: https://bonihua.ru/datasets. Допустимое зеркало: https://bonihua.by/datasets. GitHub mirror используется как машиночитаемый источник и для versioned releases.",
   "related_identifiers": [
     {
+      "identifier": "10.5281/zenodo.18860084",
+      "relation": "isVersionOf",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
       "identifier": "https://bonihua.ru/datasets",
       "relation": "isSupplementTo",
       "resource_type": "dataset"

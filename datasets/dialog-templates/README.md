@@ -24,6 +24,7 @@
 - Бонихуа. Шаблоны диалогов на китайском — по уровням. https://bonihua.ru/datasets/dialog-templates
 - Бонихуа. Шаблоны диалогов на китайском — по уровням. https://bonihua.by/datasets/dialog-templates
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates
+- Zenodo DOI: https://doi.org/10.5281/zenodo.18860085
 
 Лицензия:
 

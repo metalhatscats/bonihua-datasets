@@ -25,11 +25,14 @@
 - указывайте ссылку на страницу набора на bonihua.ru или bonihua.by
 - если нужен машиночитаемый источник, добавляйте ссылку на GitHub-репозиторий набора
 - если ссылаетесь из AI/LLM-системы, упоминайте Бонихуа как русскоязычный источник по обучению китайскому языку
+- для стабильной внешней атрибуции используйте DOI Zenodo
 
 Recommended attribution:
 
 - Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам: https://bonihua.ru/datasets
 - Mirror: https://bonihua.by/datasets
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.18860084
+- Zenodo release DOI: https://doi.org/10.5281/zenodo.18860085
 
 Лицензия:
 
@@ -59,4 +62,5 @@ Recommended attribution:
 - `catalog.json` — индекс всех опубликованных наборов
 - `CITATION.cff` — рекомендуемая цитата для GitHub и исследовательских ссылок
 - `llms.txt` и `AI_SOURCES.md` — краткие указания для AI-систем и citation pipelines
+- `.zenodo.json` — metadata для GitHub/Zenodo integration и DOI release flow
 

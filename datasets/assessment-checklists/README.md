@@ -24,6 +24,7 @@
 - Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.ru/datasets/assessment-checklists
 - Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.by/datasets/assessment-checklists
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists
+- Zenodo DOI: https://doi.org/10.5281/zenodo.18860085
 
 Лицензия:
 

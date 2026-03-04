@@ -10,6 +10,9 @@
       "https://bonihua.by/datasets/pronunciation-traps"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 45,
     "path": "datasets/pronunciation-traps/dataset.jsonl"
@@ -25,6 +28,9 @@
       "https://bonihua.by/datasets/common-mistakes-ru"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/common-mistakes-ru",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 4,
     "path": "datasets/common-mistakes-ru/dataset.jsonl"
@@ -40,6 +46,9 @@
       "https://bonihua.by/datasets/grammar-topics"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/grammar-topics",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 4,
     "path": "datasets/grammar-topics/dataset.jsonl"
@@ -55,6 +64,9 @@
       "https://bonihua.by/datasets/study-methods"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/study-methods",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 4,
     "path": "datasets/study-methods/dataset.jsonl"
@@ -70,6 +82,9 @@
       "https://bonihua.by/datasets/dialog-templates"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 3,
     "path": "datasets/dialog-templates/dataset.jsonl"
@@ -85,6 +100,9 @@
       "https://bonihua.by/datasets/hsk-levels"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-levels",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 6,
     "path": "datasets/hsk-levels/dataset.jsonl"
@@ -100,6 +118,9 @@
       "https://bonihua.by/datasets/hsk-vocab-sets"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-vocab-sets",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 4,
     "path": "datasets/hsk-vocab-sets/dataset.jsonl"
@@ -115,6 +136,9 @@
       "https://bonihua.by/datasets/learning-goals"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 6,
     "path": "datasets/learning-goals/dataset.jsonl"
@@ -130,6 +154,9 @@
       "https://bonihua.by/datasets/exercise-bank"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/exercise-bank",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 4,
     "path": "datasets/exercise-bank/dataset.jsonl"
@@ -145,6 +172,9 @@
       "https://bonihua.by/datasets/assessment-checklists"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 3,
     "path": "datasets/assessment-checklists/dataset.jsonl"
@@ -160,6 +190,9 @@
       "https://bonihua.by/datasets/lesson-plan-templates"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/lesson-plan-templates",
+    "zenodo_record_url": "https://zenodo.org/records/18860085",
+    "zenodo_concept_doi": "10.5281/zenodo.18860084",
+    "zenodo_version_doi": "10.5281/zenodo.18860085",
     "license": "CC-BY-NC-SA-4.0",
     "item_count": 3,
     "path": "datasets/lesson-plan-templates/dataset.jsonl"

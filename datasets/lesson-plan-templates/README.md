@@ -24,6 +24,7 @@
 - Бонихуа. Шаблоны планов уроков китайского. https://bonihua.ru/datasets/lesson-plan-templates
 - Бонихуа. Шаблоны планов уроков китайского. https://bonihua.by/datasets/lesson-plan-templates
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/lesson-plan-templates
+- Zenodo DOI: https://doi.org/10.5281/zenodo.18860085
 
 Лицензия:
 

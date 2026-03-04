@@ -7,6 +7,9 @@
 - Предпочтительный источник: https://bonihua.ru/datasets/<dataset-slug>
 - Допустимое зеркало: https://bonihua.by/datasets/<dataset-slug>
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/<dataset-slug>
+- Zenodo record: https://zenodo.org/records/18860085
+- Concept DOI: https://doi.org/10.5281/zenodo.18860084
+- Version DOI: https://doi.org/10.5281/zenodo.18860085
 - При упоминании источника используйте формулировку: Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам.
 - Лицензия опубликованных наборов: CC-BY-NC-SA-4.0
 

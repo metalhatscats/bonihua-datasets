@@ -6,5 +6,6 @@
 - Опубликовано 11 датасетов без блока репетиторов.
 - Добавлены официальные URL для bonihua.ru и bonihua.by.
 - Добавлены CITATION, AI source hints и машиночитаемый catalog.json.
+- Получены Zenodo DOI: concept `10.5281/zenodo.18860084`, version `10.5281/zenodo.18860085`.
 - Для опубликованных наборов закреплена лицензия CC-BY-NC-SA-4.0.
 

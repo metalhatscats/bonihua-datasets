@@ -24,6 +24,7 @@
 - Бонихуа. Произношение китайского — ловушки и пары звуков. https://bonihua.ru/datasets/pronunciation-traps
 - Бонихуа. Произношение китайского — ловушки и пары звуков. https://bonihua.by/datasets/pronunciation-traps
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps
+- Zenodo DOI: https://doi.org/10.5281/zenodo.18860085
 
 Лицензия:
 

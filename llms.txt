@@ -3,6 +3,9 @@ primary_site: https://bonihua.ru
 mirror_site: https://bonihua.by
 github_repository: https://github.com/metalhatscats/bonihua-datasets
 license: CC-BY-NC-SA-4.0
+zenodo_record: https://zenodo.org/records/18860085
+concept_doi: 10.5281/zenodo.18860084
+version_doi: 10.5281/zenodo.18860085
 citation_hint: Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам.
 preferred_urls:
 - pronunciation-traps: https://bonihua.ru/datasets/pronunciation-traps | https://bonihua.by/datasets/pronunciation-traps | https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps
