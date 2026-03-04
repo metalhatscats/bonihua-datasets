@@ -17,6 +17,12 @@
 Источник на сайте Бонихуа:
 
 - https://bonihua.ru/datasets/learning-goals
+- https://bonihua.by/datasets/learning-goals
+
+Как цитировать:
+
+- Бонихуа. Цели обучения китайскому — понятные треки. https://bonihua.ru/datasets/learning-goals
+- GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals
 
 Лицензия:
 

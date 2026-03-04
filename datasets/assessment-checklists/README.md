@@ -17,6 +17,12 @@
 Источник на сайте Бонихуа:
 
 - https://bonihua.ru/datasets/assessment-checklists
+- https://bonihua.by/datasets/assessment-checklists
+
+Как цитировать:
+
+- Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.ru/datasets/assessment-checklists
+- GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists
 
 Лицензия:
 

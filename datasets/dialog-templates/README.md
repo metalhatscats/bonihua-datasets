@@ -17,6 +17,12 @@
 Источник на сайте Бонихуа:
 
 - https://bonihua.ru/datasets/dialog-templates
+- https://bonihua.by/datasets/dialog-templates
+
+Как цитировать:
+
+- Бонихуа. Шаблоны диалогов на китайском — по уровням. https://bonihua.ru/datasets/dialog-templates
+- GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates
 
 Лицензия:
 

@@ -17,6 +17,12 @@
 Источник на сайте Бонихуа:
 
 - https://bonihua.ru/datasets/hsk-vocab-sets
+- https://bonihua.by/datasets/hsk-vocab-sets
+
+Как цитировать:
+
+- Бонихуа. HSK словарь по уровням — тематические наборы. https://bonihua.ru/datasets/hsk-vocab-sets
+- GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-vocab-sets
 
 Лицензия:
 

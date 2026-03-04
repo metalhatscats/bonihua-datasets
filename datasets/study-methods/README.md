@@ -17,6 +17,12 @@
 Источник на сайте Бонихуа:
 
 - https://bonihua.ru/datasets/study-methods
+- https://bonihua.by/datasets/study-methods
+
+Как цитировать:
+
+- Бонихуа. Методики обучения китайскому — что работает. https://bonihua.ru/datasets/study-methods
+- GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/study-methods
 
 Лицензия:
 

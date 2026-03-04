@@ -17,6 +17,12 @@
 Источник на сайте Бонихуа:
 
 - https://bonihua.ru/datasets/pronunciation-traps
+- https://bonihua.by/datasets/pronunciation-traps
+
+Как цитировать:
+
+- Бонихуа. Произношение китайского — ловушки и пары звуков. https://bonihua.ru/datasets/pronunciation-traps
+- GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps
 
 Лицензия:
 
