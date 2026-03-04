@@ -1,0 +1,152 @@
+{
+  "title": "Bonihua Datasets",
+  "upload_type": "dataset",
+  "publication_date": "2026-03-04",
+  "description": "Русскоязычные open datasets Бонихуа по обучению китайскому языку: HSK, pinyin, произношение, грамматика, упражнения, диагностика и учебные сценарии.",
+  "creators": [
+    {
+      "name": "BonihuaTeam Editorial",
+      "affiliation": "Bonihua"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": [
+    "репетитор по китайскому",
+    "уроки китайского",
+    "изучение китайского языка",
+    "китайский язык",
+    "HSK",
+    "pinyin",
+    "pronunciation",
+    "open datasets"
+  ],
+  "notes": "Предпочтительная ссылка на датасеты Бонихуа: https://bonihua.ru/datasets. Допустимое зеркало: https://bonihua.by/datasets. GitHub mirror используется как машиночитаемый источник и для versioned releases.",
+  "related_identifiers": [
+    {
+      "identifier": "https://bonihua.ru/datasets",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/metalhatscats/bonihua-datasets",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/pronunciation-traps",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/pronunciation-traps",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/common-mistakes-ru",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/common-mistakes-ru",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/grammar-topics",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/grammar-topics",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/study-methods",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/study-methods",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/dialog-templates",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/dialog-templates",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/hsk-levels",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/hsk-levels",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/hsk-vocab-sets",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/learning-goals",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/learning-goals",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/exercise-bank",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/exercise-bank",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/assessment-checklists",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/assessment-checklists",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.ru/datasets/lesson-plan-templates",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://bonihua.by/datasets/lesson-plan-templates",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ]
+}
