@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Карьерные треки: китайский под роль",
+    "description": "Треки под карьерные задачи: какие уровни нужны, какие навыки ключевые и какие этапы пройти. Помогает построить план обучения под профессию, а не абстрактный «китайский».",
+    "version": "0.1.0",
+    "license": "CC-BY-SA-4.0",
+    "updatedAt": "2026-03-07T09:00:10.821Z",
+    "source_url": "https://www.bonihua.ru/datasets/career-tracks",
+    "author": "Редакция Бонихуа",
+    "license_url": "https://www.bonihua.ru/datasets/career-tracks/license",
+    "updated_at": "2026-03-07T09:00:10.821Z",
+    "cite_as": "Редакция Бонихуа (2026). Карьерные треки: китайский под роль. https://www.bonihua.ru/datasets/career-tracks",
+    "changelog_url": "https://www.bonihua.ru/datasets/career-tracks/changelog",
+    "methodology": {
+      "source": "Источник: datasets/work/career-tracks.jsonl + реестр /lib/datasets/registry.ts",
+      "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
+      "updateFrequency": "При каждом обновлении датасета и пересборке manifest.",
+      "limitations": "Данные носят справочный характер и не являются публичной офертой."
+    },
+    "commercial_use": "Коммерческое использование — по запросу",
+    "commercial_contact": "mailto:hello.bonihua@gmail.com"
+  },
+  "items": [
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "careertrack:procurement-manager",
+      "slug": "procurement-manager",
+      "name": {
+        "ru": "Трек: менеджер по закупкам"
+      },
+      "desc": {
+        "ru": "Фокус на письмах, условия сделки, контроль сроков и качества."
+      },
+      "body": {
+        "ru": "Фокус на письмах, условия сделки, контроль сроков и качества. Практика: Собираем словарь закупок, шаблоны писем и практику переговоров. Когда полезно: Нужен тем, кто ведёт поставщиков из Китая."
+      },
+      "when": {
+        "ru": "Нужен тем, кто ведёт поставщиков из Китая."
+      },
+      "how": {
+        "ru": "Собираем словарь закупок, шаблоны писем и практику переговоров."
+      },
+      "examples": [
+        {
+          "ru": "Запрос КП и обсуждение условий оплаты."
+        },
+        {
+          "ru": "Контроль отгрузки и рекламации."
+        }
+      ],
+      "tags": [
+        "career",
+        "procurement"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "goal:career-track",
+        "industry:procurement",
+        "examlevel:hsk-3",
+        "examlevel:hsk-4",
+        "skill:writing-short-message",
+        "skill:speaking-negotiation",
+        "careertrack:logistics-coordinator",
+        "careertrack:sales-account"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Трек: менеджер по закупкам»?",
+          "answer": "Нужен тем, кто ведёт поставщиков из Китая."
+        },
+        {
+          "question": "С чего начать по теме «Трек: менеджер по закупкам»?",
+          "answer": "Собираем словарь закупок, шаблоны писем и практику переговоров."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "industry_id": "industry:procurement",
+      "goal_id": "goal:career-track",
+      "recommended_level_ids": [
+        "examlevel:hsk-3",
+        "examlevel:hsk-4"
+      ],
+      "core_skill_ids": [
+        "skill:writing-short-message",
+        "skill:speaking-negotiation"
+      ],
+      "milestones": [
+        {
+          "ru": "Неделя 4: уверенные письма‑шаблоны."
+        },
+        {
+          "ru": "Неделя 8: переговоры по условиям и срокам."
+        }
+      ],
+      "timeline_months": 3
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "careertrack:logistics-coordinator",
+      "slug": "logistics-coordinator",
+      "name": {
+        "ru": "Трек: координатор логистики"
+      },
+      "desc": {
+        "ru": "Сценарии статусов, документов и дедлайнов."
+      },
+      "body": {
+        "ru": "Сценарии статусов, документов и дедлайнов. Практика: Отрабатываем статусы, документы, ETA, вопросы о задержках. Когда полезно: Нужен, если вы ведёте поставки и координацию."
+      },
+      "when": {
+        "ru": "Нужен, если вы ведёте поставки и координацию."
+      },
+      "how": {
+        "ru": "Отрабатываем статусы, документы, ETA, вопросы о задержках."
+      },
+      "examples": [
+        {
+          "ru": "Запрос статуса контейнера."
+        },
+        {
+          "ru": "Проверка пакета документов."
+        }
+      ],
+      "tags": [
+        "career",
+        "logistics"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "goal:work-email",
+        "industry:logistics",
+        "examlevel:hsk-3",
+        "skill:writing-short-message",
+        "skill:reading-scanning",
+        "careertrack:sales-account",
+        "careertrack:it-pm"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Трек: координатор логистики»?",
+          "answer": "Нужен, если вы ведёте поставки и координацию."
+        },
+        {
+          "question": "С чего начать по теме «Трек: координатор логистики»?",
+          "answer": "Отрабатываем статусы, документы, ETA, вопросы о задержках."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "industry_id": "industry:logistics",
+      "goal_id": "goal:work-email",
+      "recommended_level_ids": [
+        "examlevel:hsk-3"
+      ],
+      "core_skill_ids": [
+        "skill:writing-short-message",
+        "skill:reading-scanning"
+      ],
+      "milestones": [
+        {
+          "ru": "Неделя 3: письма по статусам."
+        },
+        {
+          "ru": "Неделя 6: уверенная терминология.»"
+        }
+      ],
+      "timeline_months": 2
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "careertrack:sales-account",
+      "slug": "sales-account",
+      "name": {
+        "ru": "Трек: продажи и аккаунт‑менеджмент"
+      },
+      "desc": {
+        "ru": "Презентации, ценность продукта, follow‑up и переговоры."
+      },
+      "body": {
+        "ru": "Презентации, ценность продукта, follow‑up и переговоры. Практика: Тренируем мини‑презентации и письма‑резюме. Когда полезно: Нужен, если вы ведёте клиентов на китайском."
+      },
+      "when": {
+        "ru": "Нужен, если вы ведёте клиентов на китайском."
+      },
+      "how": {
+        "ru": "Тренируем мини‑презентации и письма‑резюме."
+      },
+      "examples": [
+        {
+          "ru": "Питч на 60 секунд."
+        },
+        {
+          "ru": "Follow‑up после встречи."
+        }
+      ],
+      "tags": [
+        "career",
+        "sales"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "goal:work-meetings",
+        "industry:sales",
+        "examlevel:hsk-4",
+        "skill:speaking-presentations",
+        "skill:speaking-negotiation",
+        "careertrack:it-pm",
+        "careertrack:procurement-manager"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Трек: продажи и аккаунт‑менеджмент»?",
+          "answer": "Нужен, если вы ведёте клиентов на китайском."
+        },
+        {
+          "question": "С чего начать по теме «Трек: продажи и аккаунт‑менеджмент»?",
+          "answer": "Тренируем мини‑презентации и письма‑резюме."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "industry_id": "industry:sales",
+      "goal_id": "goal:work-meetings",
+      "recommended_level_ids": [
+        "examlevel:hsk-4"
+      ],
+      "core_skill_ids": [
+        "skill:speaking-presentations",
+        "skill:speaking-negotiation"
+      ],
+      "milestones": [
+        {
+          "ru": "Неделя 4: презентация продукта."
+        },
+        {
+          "ru": "Неделя 8: отработка возражений.»"
+        }
+      ],
+      "timeline_months": 3
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "careertrack:it-pm",
+      "slug": "it-pm",
+      "name": {
+        "ru": "Трек: ИТ‑PM/продукт"
+      },
+      "desc": {
+        "ru": "Статусы, требования, риски и коммуникация с командой."
+      },
+      "body": {
+        "ru": "Статусы, требования, риски и коммуникация с командой. Практика: Отрабатываем статус‑апдейты, change requests и письма по требованиям. Когда полезно: Нужен, если вы ведёте продукт/проект с китайскими партнёрами."
+      },
+      "when": {
+        "ru": "Нужен, если вы ведёте продукт/проект с китайскими партнёрами."
+      },
+      "how": {
+        "ru": "Отрабатываем статус‑апдейты, change requests и письма по требованиям."
+      },
+      "examples": [
+        {
+          "ru": "Статус по спринту и риски."
+        },
+        {
+          "ru": "Письмо по изменению требований."
+        }
+      ],
+      "tags": [
+        "career",
+        "it"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "goal:career-track",
+        "industry:it-services",
+        "examlevel:hsk-4",
+        "skill:writing-report",
+        "skill:speaking-presentations",
+        "careertrack:procurement-manager",
+        "careertrack:logistics-coordinator"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Трек: ИТ‑PM/продукт»?",
+          "answer": "Нужен, если вы ведёте продукт/проект с китайскими партнёрами."
+        },
+        {
+          "question": "С чего начать по теме «Трек: ИТ‑PM/продукт»?",
+          "answer": "Отрабатываем статус‑апдейты, change requests и письма по требованиям."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "industry_id": "industry:it-services",
+      "goal_id": "goal:career-track",
+      "recommended_level_ids": [
+        "examlevel:hsk-4"
+      ],
+      "core_skill_ids": [
+        "skill:writing-report",
+        "skill:speaking-presentations"
+      ],
+      "milestones": [
+        {
+          "ru": "Неделя 4: стабильные статус‑апдейты."
+        },
+        {
+          "ru": "Неделя 8: письма по требованиям.»"
+        }
+      ],
+      "timeline_months": 3
+    }
+  ]
+}

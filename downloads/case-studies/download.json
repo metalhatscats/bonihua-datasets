@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Кейсы обучения китайскому — результаты и факты",
+    "description": "Кейсы учеников и преподавателей: цель, стартовый уровень, методы и результат. Помогают понять, что реально работает и сколько времени нужно на прогресс.",
+    "version": "0.1.0",
+    "license": "CC-BY-SA-4.0",
+    "updatedAt": "2026-03-07T09:00:10.821Z",
+    "source_url": "https://www.bonihua.ru/datasets/case-studies",
+    "author": "Редакция Бонихуа",
+    "license_url": "https://www.bonihua.ru/datasets/case-studies/license",
+    "updated_at": "2026-03-07T09:00:10.821Z",
+    "cite_as": "Редакция Бонихуа (2026). Кейсы обучения китайскому — результаты и факты. https://www.bonihua.ru/datasets/case-studies",
+    "changelog_url": "https://www.bonihua.ru/datasets/case-studies/changelog",
+    "methodology": {
+      "source": "Источник: datasets/teaching/case-studies.jsonl + реестр /lib/datasets/registry.ts",
+      "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
+      "updateFrequency": "При каждом обновлении датасета и пересборке manifest.",
+      "limitations": "Данные носят справочный характер и не являются публичной офертой."
+    },
+    "commercial_use": "Коммерческое использование — по запросу",
+    "commercial_contact": "mailto:hello.bonihua@gmail.com"
+  },
+  "items": [
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "case:hsk2-from-zero",
+      "slug": "hsk2-from-zero",
+      "name": {
+        "ru": "С нуля до HSK2 за 4 месяца"
+      },
+      "desc": {
+        "ru": "Кейс ученицы, которая стартовала с нуля и вышла на уверенный HSK2."
+      },
+      "body": {
+        "ru": "Кейс ученицы, которая стартовала с нуля и вышла на уверенный HSK2. Практика: Ставили тоны, делали интервальные повторения и много коротких диалогов. Когда полезно: Подходит тем, кто хочет быстро закрыть базовый уровень."
+      },
+      "when": {
+        "ru": "Подходит тем, кто хочет быстро закрыть базовый уровень.»"
+      },
+      "how": {
+        "ru": "Ставили тоны, делали интервальные повторения и много коротких диалогов."
+      },
+      "examples": [
+        {
+          "ru": "12 минут аудирования ежедневно."
+        },
+        {
+          "ru": "2 пробника HSK2 в месяц."
+        }
+      ],
+      "tags": [
+        "case",
+        "hsk2",
+        "beginner"
+      ],
+      "audience": [
+        "student"
+      ],
+      "related_ids": [
+        "examlevel:hsk-1",
+        "examlevel:hsk-2",
+        "goal:hsk2-pass",
+        "tutor:repetitor-bonihua",
+        "studymethod:spaced-repetition",
+        "studymethod:chunking",
+        "case:work-email",
+        "case:pronunciation-reset"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «С нуля до HSK2 за 4 месяца»?",
+          "answer": "Подходит тем, кто хочет быстро закрыть базовый уровень."
+        },
+        {
+          "question": "С чего начать по теме «С нуля до HSK2 за 4 месяца»?",
+          "answer": "Ставили тоны, делали интервальные повторения и много коротких диалогов."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "goal_id": "goal:hsk2-pass",
+      "start_level_id": "examlevel:hsk-1",
+      "target_level_id": "examlevel:hsk-2",
+      "timeline_weeks": 16,
+      "key_method_ids": [
+        "studymethod:spaced-repetition",
+        "studymethod:chunking"
+      ],
+      "evidence": [
+        {
+          "ru": "Два стабильных пробника >180 баллов."
+        },
+        {
+          "ru": "Уверная речь в бытовых диалогах."
+        }
+      ],
+      "tutor_id": "tutor:repetitor-bonihua"
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "case:work-email",
+      "slug": "work-email",
+      "name": {
+        "ru": "Деловая переписка для закупок"
+      },
+      "desc": {
+        "ru": "Кейс менеджера закупок: научился писать запросы и follow‑up без «гугл‑переводчика»."
+      },
+      "body": {
+        "ru": "Кейс менеджера закупок: научился писать запросы и follow‑up без гугл‑переводчика. Практика: Отработали шаблоны писем, словарь по логистике и тоновые формулы вежливости. Когда полезно: Подходит для специалистов, которым нужно писать в Китай 2–3 раза в неделю."
+      },
+      "when": {
+        "ru": "Подходит для специалистов, которым нужно писать в Китай 2–3 раза в неделю."
+      },
+      "how": {
+        "ru": "Отработали шаблоны писем, словарь по логистике и тоновые формулы вежливости."
+      },
+      "examples": [
+        {
+          "ru": "Запрос КП + уточнение MOQ."
+        },
+        {
+          "ru": "Письмо о переносе срока.»"
+        }
+      ],
+      "tags": [
+        "case",
+        "work",
+        "email"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "examlevel:hsk-3",
+        "goal:work-email",
+        "studymethod:chunking",
+        "case:pronunciation-reset",
+        "case:hsk2-from-zero"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Деловая переписка для закупок»?",
+          "answer": "Подходит для специалистов, которым нужно писать в Китай 2–3 раза в неделю."
+        },
+        {
+          "question": "С чего начать по теме «Деловая переписка для закупок»?",
+          "answer": "Отработали шаблоны писем, словарь по логистике и тоновые формулы вежливости."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "goal_id": "goal:work-email",
+      "start_level_id": "examlevel:hsk-3",
+      "timeline_weeks": 10,
+      "key_method_ids": [
+        "studymethod:chunking"
+      ],
+      "evidence": [
+        {
+          "ru": "Сокращение времени на письмо с 40 до 15 минут."
+        },
+        {
+          "ru": "Стабильные ответы от поставщиков."
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "case:pronunciation-reset",
+      "slug": "pronunciation-reset",
+      "name": {
+        "ru": "Фонетический «ресет» на HSK3"
+      },
+      "desc": {
+        "ru": "Кейс ученика, который понимал тексты, но его не понимали на слух из‑за тонов."
+      },
+      "body": {
+        "ru": "Кейс ученика, который понимал тексты, но его не понимали на слух из‑за тонов. Практика: Shadowing + диктанты тонов + контроль ошибок в речи. Когда полезно: Подходит тем, кто застрял на понимаю, но не могу говорить."
+      },
+      "when": {
+        "ru": "Подходит тем, кто застрял на «понимаю, но не могу говорить»."
+      },
+      "how": {
+        "ru": "Shadowing + диктанты тонов + контроль ошибок в речи."
+      },
+      "examples": [
+        {
+          "ru": "15 минут shadowing в день."
+        },
+        {
+          "ru": "Запись речи и разбор по тонам."
+        }
+      ],
+      "tags": [
+        "case",
+        "pronunciation"
+      ],
+      "audience": [
+        "student"
+      ],
+      "related_ids": [
+        "examlevel:hsk-3",
+        "goal:work-meetings",
+        "studymethod:shadowing",
+        "studymethod:micro-drills",
+        "case:hsk2-from-zero",
+        "case:work-email"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Фонетический ресет на HSK3»?",
+          "answer": "Подходит тем, кто застрял на понимаю, но не могу говорить."
+        },
+        {
+          "question": "С чего начать по теме «Фонетический ресет на HSK3»?",
+          "answer": "Shadowing + диктанты тонов + контроль ошибок в речи."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "goal_id": "goal:work-meetings",
+      "start_level_id": "examlevel:hsk-3",
+      "timeline_weeks": 8,
+      "key_method_ids": [
+        "studymethod:shadowing",
+        "studymethod:micro-drills"
+      ],
+      "evidence": [
+        {
+          "ru": "Снижение переспросов на 60–70%."
+        },
+        {
+          "ru": "Более ровная интонация в диалогах."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "Минимум китайского для жизни и путешествий",
+    "description": "Наборы фраз для поездки, города и бытовых ситуаций. Помогают быстро заговорить и не зависнуть в кафе, транспорте или аэропорту — без лишней грамматики.",
+    "version": "0.1.0",
+    "license": "CC-BY-SA-4.0",
+    "updatedAt": "2026-03-07T09:00:10.821Z",
+    "source_url": "https://www.bonihua.ru/datasets/survival-sets",
+    "author": "Редакция Бонихуа",
+    "license_url": "https://www.bonihua.ru/datasets/survival-sets/license",
+    "updated_at": "2026-03-07T09:00:10.821Z",
+    "cite_as": "Редакция Бонихуа (2026). Минимум китайского для жизни и путешествий. https://www.bonihua.ru/datasets/survival-sets",
+    "changelog_url": "https://www.bonihua.ru/datasets/survival-sets/changelog",
+    "methodology": {
+      "source": "Источник: datasets/learning/survival-sets.jsonl + реестр /lib/datasets/registry.ts",
+      "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
+      "updateFrequency": "При каждом обновлении датасета и пересборке manifest.",
+      "limitations": "Данные носят справочный характер и не являются публичной офертой."
+    },
+    "commercial_use": "Коммерческое использование — по запросу",
+    "commercial_contact": "mailto:hello.bonihua@gmail.com"
+  },
+  "items": [
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "survival:travel-airport",
+      "slug": "travel-airport",
+      "name": {
+        "ru": "Аэропорт и прилёт"
+      },
+      "desc": {
+        "ru": "Мини‑набор фраз для прохождения аэропорта и первых вопросов."
+      },
+      "body": {
+        "ru": "Этот набор — про спокойный первый контакт: паспортный контроль, багаж, такси. Смысл не в идеальной грамматике, а в понятности. Выучите 10–12 ключевых фраз и проговорите их в диалоге «пассажир ↔ сотрудник». Тогда в реальной ситуации голова не «зависает»."
+      },
+      "when": {
+        "ru": "Нужен, если вы летите в Китай и хотите говорить без паники на контроле и в такси."
+      },
+      "how": {
+        "ru": "Выучите 10–12 фраз и потренируйте их в коротком диалоге с партнёром."
+      },
+      "examples": [
+        {
+          "ru": "Спросить, где получить багаж."
+        },
+        {
+          "ru": "Сказать адрес и показать его в телефоне."
+        }
+      ],
+      "tags": [
+        "travel",
+        "survival",
+        "hsk1"
+      ],
+      "audience": [
+        "student"
+      ],
+      "related_ids": [
+        "hsklevel:hsk-1",
+        "hskvocab:hsk1-everyday",
+        "dialog:introductions",
+        "studymethod:chunking",
+        "studymethod:micro-drills",
+        "mistake:tones-ignored"
+      ],
+      "faq": [
+        {
+          "question": "Нужны ли иероглифы?",
+          "answer": "Нет, достаточно слуха и пары ключевых фраз на пиньине."
+        },
+        {
+          "question": "Как быстро закрепить?",
+          "answer": "Прогоните диалог 3–4 раза вслух и запишите себя."
+        },
+        {
+          "question": "Какие фразы самые важные?",
+          "answer": "Куда идти, где багаж, сколько стоит — это базовый минимум."
+        }
+      ],
+      "level_id": "examlevel:hsk-1",
+      "topic_ids": [
+        "topic:travel",
+        "topic:directions-and-transport"
+      ],
+      "phrases": [
+        {
+          "ru": "Где получить багаж?",
+          "zh": "行李在哪儿取？",
+          "pinyin": "xíngli zài nǎr qǔ"
+        },
+        {
+          "ru": "Я еду в…",
+          "zh": "我要去…",
+          "pinyin": "wǒ yào qù …"
+        },
+        {
+          "ru": "Сколько стоит?",
+          "zh": "多少钱？",
+          "pinyin": "duōshao qián"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "survival:cafe-order",
+      "slug": "cafe-order",
+      "name": {
+        "ru": "Кафе и заказ еды"
+      },
+      "desc": {
+        "ru": "Фразы для заказа, уточнений и оплаты в кафе."
+      },
+      "body": {
+        "ru": "Набор нужен, чтобы быстро и понятно заказать еду. Самая частая проблема — нервозность и «слет» тонов, поэтому тренируйте короткие фразы вслух. Хорошая практика — сыграть диалог «гость ↔ официант» и менять блюда/напитки."
+      },
+      "when": {
+        "ru": "Нужен для путешествий и повседневных ситуаций."
+      },
+      "how": {
+        "ru": "Разберите меню, выберите 5–6 блюд и прогоните заказ по ролям."
+      },
+      "examples": [
+        {
+          "ru": "Спросить «не остро»."
+        },
+        {
+          "ru": "Попросить счёт.»"
+        }
+      ],
+      "tags": [
+        "food",
+        "survival",
+        "hsk1"
+      ],
+      "audience": [
+        "student"
+      ],
+      "related_ids": [
+        "hsklevel:hsk-1",
+        "hskvocab:hsk1-everyday",
+        "dialog:cafe-order",
+        "studymethod:chunking",
+        "studymethod:micro-drills",
+        "mistake:classifiers"
+      ],
+      "faq": [
+        {
+          "question": "Нужно ли знать названия всех блюд?",
+          "answer": "Нет, хватит базовых слов и умения показать/уточнить."
+        },
+        {
+          "question": "Как сказать «не остро»?",
+          "answer": "可以不要辣吗？ — это самая полезная фраза."
+        },
+        {
+          "question": "Как тренировать?",
+          "answer": "Прогоняйте заказ 5–7 раз вслух, меняя детали."
+        }
+      ],
+      "level_id": "examlevel:hsk-1",
+      "topic_ids": [
+        "topic:food-and-drink"
+      ],
+      "phrases": [
+        {
+          "ru": "Можно без острого?",
+          "zh": "可以不要辣吗？",
+          "pinyin": "kěyǐ bú yào là ma"
+        },
+        {
+          "ru": "Принесите счёт",
+          "zh": "请结账",
+          "pinyin": "qǐng jiézhàng"
+        },
+        {
+          "ru": "Я хочу вот это",
+          "zh": "我要这个",
+          "pinyin": "wǒ yào zhège"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "survival:city-transport",
+      "slug": "city-transport",
+      "name": {
+        "ru": "Городской транспорт"
+      },
+      "desc": {
+        "ru": "Мини‑набор для метро и автобусов: билеты, пересадки, направления."
+      },
+      "body": {
+        "ru": "Транспорт — это короткие, но критичные диалоги: «куда», «как доехать», «где пересадка». Ошибка здесь — длинные фразы; лучше держать 5–7 коротких конструкций. Учите их вместе с картой маршрута, так они запоминаются быстрее."
+      },
+      "when": {
+        "ru": "Полезно, если вы планируете ездить по городу самостоятельно."
+      },
+      "how": {
+        "ru": "Отработайте фразы вместе с картой или приложением метро."
+      },
+      "examples": [
+        {
+          "ru": "Спросить, на какой линии ехать."
+        },
+        {
+          "ru": "Уточнить пересадку."
+        }
+      ],
+      "tags": [
+        "transport",
+        "survival",
+        "hsk2"
+      ],
+      "audience": [
+        "student"
+      ],
+      "related_ids": [
+        "hsklevel:hsk-2",
+        "hskvocab:hsk2-daily",
+        "dialog:introductions",
+        "studymethod:chunking",
+        "mistake:word-order",
+        "survival:travel-airport"
+      ],
+      "faq": [
+        {
+          "question": "Что выучить в первую очередь?",
+          "answer": "«Как доехать», «где пересадка», «сколько стоит»."
+        },
+        {
+          "question": "Как тренироваться без метро?",
+          "answer": "Используйте приложение метро и проговаривайте маршрут вслух."
+        },
+        {
+          "question": "Нужен ли уровень HSK2?",
+          "answer": "Для уверенности — да, но базовые фразы доступны и на HSK1."
+        }
+      ],
+      "level_id": "examlevel:hsk-2",
+      "topic_ids": [
+        "topic:directions-and-transport",
+        "topic:public-transport"
+      ],
+      "phrases": [
+        {
+          "ru": "Где вход в метро?",
+          "zh": "地铁入口在哪儿？",
+          "pinyin": "dìtiě rùkǒu zài nǎr"
+        },
+        {
+          "ru": "Нужна пересадка?",
+          "zh": "需要换乘吗？",
+          "pinyin": "xūyào huànchéng ma"
+        },
+        {
+          "ru": "Как доехать до…?",
+          "zh": "怎么去…？",
+          "pinyin": "zěnme qù …"
+        }
+      ]
+    }
+  ]
+}

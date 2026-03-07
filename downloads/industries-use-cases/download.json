@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "title": "Китайский для работы — отрасли и сценарии",
+    "description": "Сценарии использования китайского в работе: закупки, логистика, продажи, производство, ИТ. Каталог показывает типовые ситуации и помогает собрать словарь и шаблоны под задачу.",
+    "version": "0.1.0",
+    "license": "CC-BY-SA-4.0",
+    "updatedAt": "2026-03-07T09:00:10.821Z",
+    "source_url": "https://www.bonihua.ru/datasets/industries-use-cases",
+    "author": "Редакция Бонихуа",
+    "license_url": "https://www.bonihua.ru/datasets/industries-use-cases/license",
+    "updated_at": "2026-03-07T09:00:10.821Z",
+    "cite_as": "Редакция Бонихуа (2026). Китайский для работы — отрасли и сценарии. https://www.bonihua.ru/datasets/industries-use-cases",
+    "changelog_url": "https://www.bonihua.ru/datasets/industries-use-cases/changelog",
+    "methodology": {
+      "source": "Источник: datasets/work/industries-use-cases.jsonl + реестр /lib/datasets/registry.ts",
+      "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
+      "updateFrequency": "При каждом обновлении датасета и пересборке manifest.",
+      "limitations": "Данные носят справочный характер и не являются публичной офертой."
+    },
+    "commercial_use": "Коммерческое использование — по запросу",
+    "commercial_contact": "mailto:hello.bonihua@gmail.com"
+  },
+  "items": [
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "industry:procurement",
+      "slug": "procurement",
+      "name": {
+        "ru": "Закупки и поставки"
+      },
+      "desc": {
+        "ru": "Сценарии для менеджеров закупок: запрос КП, согласование условий, контроль поставки."
+      },
+      "body": {
+        "ru": "Сценарии для менеджеров закупок: запрос КП, согласование условий, контроль поставки. Практика: Фокус на письмах, уточнениях по условиям и чётких next steps. Когда полезно: Нужен, если вы общаетесь с фабриками и поставщиками в Китае."
+      },
+      "when": {
+        "ru": "Нужен, если вы общаетесь с фабриками и поставщиками в Китае."
+      },
+      "how": {
+        "ru": "Фокус на письмах, уточнениях по условиям и чётких next steps."
+      },
+      "examples": [
+        {
+          "ru": "Запросить коммерческое предложение."
+        },
+        {
+          "ru": "Уточнить MOQ и условия доставки."
+        }
+      ],
+      "tags": [
+        "work",
+        "procurement"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "skill:writing-short-message",
+        "skill:speaking-negotiation",
+        "bizmsg:rfq",
+        "bizmsg:clarify-spec",
+        "bizvocab:procurement-core",
+        "industry:logistics",
+        "industry:sales"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Закупки и поставки»?",
+          "answer": "Нужен, если вы общаетесь с фабриками и поставщиками в Китае."
+        },
+        {
+          "question": "С чего начать по теме «Закупки и поставки»?",
+          "answer": "Фокус на письмах, уточнениях по условиям и чётких next steps."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "scenarios": [
+        {
+          "ru": "Запрос КП и сравнение условий."
+        },
+        {
+          "ru": "Подтверждение спецификации и сроков."
+        }
+      ],
+      "related_skill_ids": [
+        "skill:writing-short-message",
+        "skill:speaking-negotiation"
+      ],
+      "vocab_set_ids": [
+        "bizvocab:procurement-core"
+      ],
+      "message_template_ids": [
+        "bizmsg:rfq",
+        "bizmsg:clarify-spec"
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "industry:logistics",
+      "slug": "logistics",
+      "name": {
+        "ru": "Логистика и доставка"
+      },
+      "desc": {
+        "ru": "Сценарии по доставке: сроки, трекинг, документы, проблемы на маршруте."
+      },
+      "body": {
+        "ru": "Сценарии по доставке: сроки, трекинг, документы, проблемы на маршруте. Практика: Учите терминологию по статусам, документам и маршрутам. Когда полезно: Нужен, если вы ведёте поставки и контролируете отправки."
+      },
+      "when": {
+        "ru": "Нужен, если вы ведёте поставки и контролируете отправки."
+      },
+      "how": {
+        "ru": "Учите терминологию по статусам, документам и маршрутам."
+      },
+      "examples": [
+        {
+          "ru": "Запросить статус отгрузки."
+        },
+        {
+          "ru": "Уточнить необходимые документы."
+        }
+      ],
+      "tags": [
+        "work",
+        "logistics"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "skill:writing-short-message",
+        "skill:reading-scanning",
+        "bizmsg:deadline-followup",
+        "bizmsg:status-update",
+        "bizvocab:logistics-core",
+        "industry:sales",
+        "industry:manufacturing"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Логистика и доставка»?",
+          "answer": "Нужен, если вы ведёте поставки и контролируете отправки."
+        },
+        {
+          "question": "С чего начать по теме «Логистика и доставка»?",
+          "answer": "Учите терминологию по статусам, документам и маршрутам."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "scenarios": [
+        {
+          "ru": "Трекинг контейнера и статус."
+        },
+        {
+          "ru": "Запрос документов и подтверждений."
+        }
+      ],
+      "related_skill_ids": [
+        "skill:writing-short-message",
+        "skill:reading-scanning"
+      ],
+      "vocab_set_ids": [
+        "bizvocab:logistics-core"
+      ],
+      "message_template_ids": [
+        "bizmsg:deadline-followup",
+        "bizmsg:status-update"
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "industry:sales",
+      "slug": "sales",
+      "name": {
+        "ru": "Продажи и аккаунт‑менеджмент"
+      },
+      "desc": {
+        "ru": "Сценарии продаж: презентация, ответы на возражения, follow‑up."
+      },
+      "body": {
+        "ru": "Сценарии продаж: презентация, ответы на возражения, follow‑up. Практика: Отрабатывайте короткие презентации и чёткие предложения выгоды. Когда полезно: Нужен, если вы ведёте клиентов и коммерческие сделки."
+      },
+      "when": {
+        "ru": "Нужен, если вы ведёте клиентов и коммерческие сделки."
+      },
+      "how": {
+        "ru": "Отрабатывайте короткие презентации и чёткие предложения выгоды."
+      },
+      "examples": [
+        {
+          "ru": "Презентация продукта на 60 секунд."
+        },
+        {
+          "ru": "Follow‑up после встречи."
+        }
+      ],
+      "tags": [
+        "work",
+        "sales"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "skill:speaking-presentations",
+        "skill:speaking-negotiation",
+        "bizmsg:meeting-invite",
+        "bizmsg:followup",
+        "bizvocab:sales-core",
+        "industry:manufacturing",
+        "industry:it-services"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Продажи и аккаунт‑менеджмент»?",
+          "answer": "Нужен, если вы ведёте клиентов и коммерческие сделки."
+        },
+        {
+          "question": "С чего начать по теме «Продажи и аккаунт‑менеджмент»?",
+          "answer": "Отрабатывайте короткие презентации и чёткие предложения выгоды."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "scenarios": [
+        {
+          "ru": "Презентация решения и ценности."
+        },
+        {
+          "ru": "Ответ на возражения по цене."
+        }
+      ],
+      "related_skill_ids": [
+        "skill:speaking-presentations",
+        "skill:speaking-negotiation"
+      ],
+      "vocab_set_ids": [
+        "bizvocab:sales-core"
+      ],
+      "message_template_ids": [
+        "bizmsg:meeting-invite",
+        "bizmsg:followup"
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "industry:manufacturing",
+      "slug": "manufacturing",
+      "name": {
+        "ru": "Производство и качество"
+      },
+      "desc": {
+        "ru": "Сценарии по производству: спецификации, контроль качества, дефекты."
+      },
+      "body": {
+        "ru": "Сценарии по производству: спецификации, контроль качества, дефекты. Практика: Фокус на технических терминах и ясных формулировках требований. Когда полезно: Нужен, если вы работаете с фабриками и техническими требованиями."
+      },
+      "when": {
+        "ru": "Нужен, если вы работаете с фабриками и техническими требованиями."
+      },
+      "how": {
+        "ru": "Фокус на технических терминах и ясных формулировках требований."
+      },
+      "examples": [
+        {
+          "ru": "Сообщить о дефекте партии."
+        },
+        {
+          "ru": "Подтвердить спецификацию перед запуском."
+        }
+      ],
+      "tags": [
+        "work",
+        "manufacturing"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "skill:writing-short-message",
+        "skill:reading-forms",
+        "bizmsg:quality-issue",
+        "bizmsg:clarify-spec",
+        "bizvocab:manufacturing-core",
+        "industry:it-services",
+        "industry:procurement"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «Производство и качество»?",
+          "answer": "Нужен, если вы работаете с фабриками и техническими требованиями."
+        },
+        {
+          "question": "С чего начать по теме «Производство и качество»?",
+          "answer": "Фокус на технических терминах и ясных формулировках требований."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "scenarios": [
+        {
+          "ru": "Контроль качества и рекламации."
+        },
+        {
+          "ru": "Согласование спецификации.»"
+        }
+      ],
+      "related_skill_ids": [
+        "skill:writing-short-message",
+        "skill:reading-forms"
+      ],
+      "vocab_set_ids": [
+        "bizvocab:manufacturing-core"
+      ],
+      "message_template_ids": [
+        "bizmsg:quality-issue",
+        "bizmsg:clarify-spec"
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "license": "CC-BY-SA-4.0",
+      "id": "industry:it-services",
+      "slug": "it-services",
+      "name": {
+        "ru": "ИТ‑проекты и сервисы"
+      },
+      "desc": {
+        "ru": "Сценарии для продуктовых и ИТ‑команд: апдейты, статусы, требования."
+      },
+      "body": {
+        "ru": "Сценарии для продуктовых и ИТ‑команд: апдейты, статусы, требования. Практика: Тренируйте короткие статус‑апдейты и письма по требованиям. Когда полезно: Нужен, если вы ведёте разработку или интеграции с китайскими партнёрами."
+      },
+      "when": {
+        "ru": "Нужен, если вы ведёте разработку или интеграции с китайскими партнёрами."
+      },
+      "how": {
+        "ru": "Тренируйте короткие статус‑апдейты и письма по требованиям."
+      },
+      "examples": [
+        {
+          "ru": "Статус по спринту."
+        },
+        {
+          "ru": "Письмо о change request."
+        }
+      ],
+      "tags": [
+        "work",
+        "it"
+      ],
+      "audience": [
+        "work"
+      ],
+      "related_ids": [
+        "skill:writing-report",
+        "skill:speaking-presentations",
+        "bizmsg:status-update",
+        "bizmsg:meeting-invite",
+        "bizvocab:it-core",
+        "industry:procurement",
+        "industry:logistics"
+      ],
+      "faq": [
+        {
+          "question": "Кому подходит «ИТ‑проекты и сервисы»?",
+          "answer": "Нужен, если вы ведёте разработку или интеграции с китайскими партнёрами."
+        },
+        {
+          "question": "С чего начать по теме «ИТ‑проекты и сервисы»?",
+          "answer": "Тренируйте короткие статус‑апдейты и письма по требованиям."
+        },
+        {
+          "question": "Как отслеживать прогресс?",
+          "answer": "Фиксируйте 1–2 измеримых результата в неделю: скорость выполнения, количество ошибок и уверенность в применении."
+        }
+      ],
+      "scenarios": [
+        {
+          "ru": "Статус по задачам и рискам."
+        },
+        {
+          "ru": "Согласование требований и сроков."
+        }
+      ],
+      "related_skill_ids": [
+        "skill:writing-report",
+        "skill:speaking-presentations"
+      ],
+      "vocab_set_ids": [
+        "bizvocab:it-core"
+      ],
+      "message_template_ids": [
+        "bizmsg:status-update",
+        "bizmsg:meeting-invite"
+      ]
+    }
+  ]
+}
