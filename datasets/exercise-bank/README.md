@@ -16,12 +16,12 @@
 
 Источник на сайте Бонихуа:
 
-- https://bonihua.ru/datasets/exercise-bank
+- https://www.bonihua.com/datasets/exercise-bank
 - https://bonihua.by/datasets/exercise-bank
 
 Как цитировать:
 
-- Бонихуа. База упражнений по китайскому — навык, уровень, время. https://bonihua.ru/datasets/exercise-bank
+- Бонихуа. База упражнений по китайскому — навык, уровень, время. https://www.bonihua.com/datasets/exercise-bank
 - Бонихуа. База упражнений по китайскому — навык, уровень, время. https://bonihua.by/datasets/exercise-bank
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/exercise-bank
 - Zenodo DOI: https://doi.org/10.5281/zenodo.18860085

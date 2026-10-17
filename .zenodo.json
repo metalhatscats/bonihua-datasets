@@ -21,7 +21,7 @@
     "pronunciation",
     "open datasets"
   ],
-  "notes": "Предпочтительная ссылка на датасеты Бонихуа: https://bonihua.ru/datasets. Допустимое зеркало: https://bonihua.by/datasets. GitHub mirror используется как машиночитаемый источник и для versioned releases.",
+  "notes": "Предпочтительная ссылка на датасеты Бонихуа: https://www.bonihua.com/datasets. Допустимое зеркало: https://bonihua.by/datasets. GitHub mirror используется как машиночитаемый источник и для versioned releases.",
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.18860084",
@@ -30,7 +30,7 @@
       "scheme": "doi"
     },
     {
-      "identifier": "https://bonihua.ru/datasets",
+      "identifier": "https://www.bonihua.com/datasets",
       "relation": "isSupplementTo",
       "resource_type": "dataset"
     },
@@ -45,7 +45,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/pronunciation-traps",
+      "identifier": "https://www.bonihua.com/datasets/pronunciation-traps",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -55,7 +55,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/common-mistakes-ru",
+      "identifier": "https://www.bonihua.com/datasets/common-mistakes-ru",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -65,7 +65,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/grammar-topics",
+      "identifier": "https://www.bonihua.com/datasets/grammar-topics",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -75,7 +75,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/study-methods",
+      "identifier": "https://www.bonihua.com/datasets/study-methods",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -85,7 +85,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/dialog-templates",
+      "identifier": "https://www.bonihua.com/datasets/dialog-templates",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -95,7 +95,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/hsk-levels",
+      "identifier": "https://www.bonihua.com/datasets/hsk-levels",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -105,7 +105,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "identifier": "https://www.bonihua.com/datasets/hsk-vocab-sets",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -115,7 +115,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/learning-goals",
+      "identifier": "https://www.bonihua.com/datasets/learning-goals",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -125,7 +125,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/exercise-bank",
+      "identifier": "https://www.bonihua.com/datasets/exercise-bank",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -135,7 +135,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/assessment-checklists",
+      "identifier": "https://www.bonihua.com/datasets/assessment-checklists",
       "relation": "references",
       "resource_type": "dataset"
     },
@@ -145,7 +145,7 @@
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://bonihua.ru/datasets/lesson-plan-templates",
+      "identifier": "https://www.bonihua.com/datasets/lesson-plan-templates",
       "relation": "references",
       "resource_type": "dataset"
     },

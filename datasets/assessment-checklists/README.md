@@ -16,12 +16,12 @@
 
 Источник на сайте Бонихуа:
 
-- https://bonihua.ru/datasets/assessment-checklists
+- https://www.bonihua.com/datasets/assessment-checklists
 - https://bonihua.by/datasets/assessment-checklists
 
 Как цитировать:
 
-- Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.ru/datasets/assessment-checklists
+- Бонихуа. Диагностика уровня китайского — чек‑листы. https://www.bonihua.com/datasets/assessment-checklists
 - Бонихуа. Диагностика уровня китайского — чек‑листы. https://bonihua.by/datasets/assessment-checklists
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists
 - Zenodo DOI: https://doi.org/10.5281/zenodo.18860085

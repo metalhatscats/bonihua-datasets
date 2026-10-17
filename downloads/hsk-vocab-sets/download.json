@@ -5,12 +5,12 @@
     "version": "0.1.0",
     "license": "CC-BY-NC-SA-4.0",
     "updatedAt": "2026-03-07T09:00:10.821Z",
-    "source_url": "https://www.bonihua.ru/datasets/hsk-vocab-sets",
+    "source_url": "https://www.bonihua.com/datasets/hsk-vocab-sets",
     "author": "Редакция Бонихуа",
-    "license_url": "https://www.bonihua.ru/datasets/hsk-vocab-sets/license",
+    "license_url": "https://www.bonihua.com/datasets/hsk-vocab-sets/license",
     "updated_at": "2026-03-07T09:00:10.821Z",
-    "cite_as": "Редакция Бонихуа (2026). HSK словарь по уровням — тематические наборы. https://www.bonihua.ru/datasets/hsk-vocab-sets",
-    "changelog_url": "https://www.bonihua.ru/datasets/hsk-vocab-sets/changelog",
+    "cite_as": "Редакция Бонихуа (2026). HSK словарь по уровням — тематические наборы. https://www.bonihua.com/datasets/hsk-vocab-sets",
+    "changelog_url": "https://www.bonihua.com/datasets/hsk-vocab-sets/changelog",
     "methodology": {
       "source": "Источник: datasets/learning/hsk-vocab-sets.jsonl + реестр /lib/datasets/registry.ts",
       "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "canonical_url": "https://www.bonihua.com/datasets/hsk-vocab-sets",
       "id": "hskvocab:hsk1-everyday",
       "slug": "hsk1-everyday",
       "name": {
@@ -111,7 +111,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "canonical_url": "https://www.bonihua.com/datasets/hsk-vocab-sets",
       "id": "hskvocab:hsk2-daily",
       "slug": "hsk2-daily",
       "name": {
@@ -197,7 +197,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "canonical_url": "https://www.bonihua.com/datasets/hsk-vocab-sets",
       "id": "hskvocab:hsk3-communication",
       "slug": "hsk3-communication",
       "name": {
@@ -283,7 +283,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "canonical_url": "https://www.bonihua.com/datasets/hsk-vocab-sets",
       "id": "hskvocab:hsk4-opinions",
       "slug": "hsk4-opinions",
       "name": {

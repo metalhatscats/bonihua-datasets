@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-17
+
+- Replaced retired bonihua.ru navigation and citation URLs with verified canonical www.bonihua.com pages, preserving regional EGE/CT paths.
+- Updated the contact to hello.bonihua@gmail.com. Existing DOI archives remain unchanged.
+
 ## 2026-03-04
 
 - Первый публичный релиз open datasets под тегом `v2026-03-open-datasets`.

@@ -16,12 +16,12 @@
 
 Источник на сайте Бонихуа:
 
-- https://bonihua.ru/datasets/common-mistakes-ru
+- https://www.bonihua.com/datasets/common-mistakes-ru
 - https://bonihua.by/datasets/common-mistakes-ru
 
 Как цитировать:
 
-- Бонихуа. Типичные ошибки русскоязычных — китайский без ловушек. https://bonihua.ru/datasets/common-mistakes-ru
+- Бонихуа. Типичные ошибки русскоязычных — китайский без ловушек. https://www.bonihua.com/datasets/common-mistakes-ru
 - Бонихуа. Типичные ошибки русскоязычных — китайский без ловушек. https://bonihua.by/datasets/common-mistakes-ru
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/common-mistakes-ru
 - Zenodo DOI: https://doi.org/10.5281/zenodo.18860085

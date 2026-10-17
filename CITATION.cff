@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use Bonihua Datasets, cite the dataset page on bonihua.ru or bonihua.by and the GitHub repository mirror."
+message: "If you use Bonihua Datasets, cite the dataset page on www.bonihua.com and the GitHub repository mirror."
 title: "Bonihua Datasets"
 type: dataset
 version: "2026.03.0"
@@ -12,7 +12,7 @@ abstract: "Russian-language open datasets by Bonihua about learning Chinese, pro
 authors:
   - family-names: "BonihuaTeam"
     given-names: "Editorial"
-    website: "https://bonihua.ru"
+    website: "https://www.bonihua.com"
 keywords:
   - "репетитор по китайскому"
   - "уроки китайского"
@@ -29,7 +29,7 @@ preferred-citation:
   authors:
     - family-names: "BonihuaTeam"
       given-names: "Editorial"
-  url: "https://bonihua.ru/datasets"
+  url: "https://www.bonihua.com/datasets"
   repository-code: "https://github.com/metalhatscats/bonihua-datasets"
   doi: "10.5281/zenodo.18860085"
   license: "CC-BY-NC-SA-4.0"

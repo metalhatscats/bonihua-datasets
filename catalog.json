@@ -3,10 +3,10 @@
     "id": "pronunciation-traps",
     "title": "Произношение китайского — ловушки и пары звуков",
     "description": "Проблемные пары звуков и тоновые ловушки, из‑за которых речь становится непонятной. Карточки помогают услышать разницу, поставить артикуляцию и закрепить её в минимальных парах.",
-    "source_url": "https://bonihua.ru/datasets/pronunciation-traps",
+    "source_url": "https://www.bonihua.com/datasets/pronunciation-traps",
     "mirror_url": "https://bonihua.by/datasets/pronunciation-traps",
     "source_urls": [
-      "https://bonihua.ru/datasets/pronunciation-traps",
+      "https://www.bonihua.com/datasets/pronunciation-traps",
       "https://bonihua.by/datasets/pronunciation-traps"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/pronunciation-traps",
@@ -21,10 +21,10 @@
     "id": "common-mistakes-ru",
     "title": "Типичные ошибки русскоязычных — китайский без ловушек",
     "description": "Список ошибок, которые чаще всего совершают русскоязычные: тоны, порядок слов, счётные слова. Каждая карточка показывает, почему ошибка возникает и как её исправить на практике.",
-    "source_url": "https://bonihua.ru/datasets/common-mistakes-ru",
+    "source_url": "https://www.bonihua.com/datasets/common-mistakes-ru",
     "mirror_url": "https://bonihua.by/datasets/common-mistakes-ru",
     "source_urls": [
-      "https://bonihua.ru/datasets/common-mistakes-ru",
+      "https://www.bonihua.com/datasets/common-mistakes-ru",
       "https://bonihua.by/datasets/common-mistakes-ru"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/common-mistakes-ru",
@@ -39,10 +39,10 @@
     "id": "grammar-topics",
     "title": "Грамматика китайского — темы и типовые ошибки",
     "description": "Грамматические темы по уровням HSK: что означает конструкция, когда она нужна и какие ошибки встречаются чаще всего. Полезно ученикам, которые путаются в частицах, и преподавателям, которым нужен чёткий план объяснений.",
-    "source_url": "https://bonihua.ru/datasets/grammar-topics",
+    "source_url": "https://www.bonihua.com/datasets/grammar-topics",
     "mirror_url": "https://bonihua.by/datasets/grammar-topics",
     "source_urls": [
-      "https://bonihua.ru/datasets/grammar-topics",
+      "https://www.bonihua.com/datasets/grammar-topics",
       "https://bonihua.by/datasets/grammar-topics"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/grammar-topics",
@@ -57,10 +57,10 @@
     "id": "study-methods",
     "title": "Методики обучения китайскому — что работает",
     "description": "Практические методики обучения: shadowing, интервальные повторения, фразовые блоки и микро‑дриллы. Каждая карточка объясняет, кому метод подходит, как его внедрять и какой результат ждать.",
-    "source_url": "https://bonihua.ru/datasets/study-methods",
+    "source_url": "https://www.bonihua.com/datasets/study-methods",
     "mirror_url": "https://bonihua.by/datasets/study-methods",
     "source_urls": [
-      "https://bonihua.ru/datasets/study-methods",
+      "https://www.bonihua.com/datasets/study-methods",
       "https://bonihua.by/datasets/study-methods"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/study-methods",
@@ -75,10 +75,10 @@
     "id": "dialog-templates",
     "title": "Шаблоны диалогов на китайском — по уровням",
     "description": "Готовые сценарии диалогов: знакомство, заказ, перенос встречи. Помогают быстро говорить по делу, а не строить фразу в голове каждую минуту.",
-    "source_url": "https://bonihua.ru/datasets/dialog-templates",
+    "source_url": "https://www.bonihua.com/datasets/dialog-templates",
     "mirror_url": "https://bonihua.by/datasets/dialog-templates",
     "source_urls": [
-      "https://bonihua.ru/datasets/dialog-templates",
+      "https://www.bonihua.com/datasets/dialog-templates",
       "https://bonihua.by/datasets/dialog-templates"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/dialog-templates",
@@ -93,10 +93,10 @@
     "id": "hsk-levels",
     "title": "HSK уровни — требования, навыки, сроки",
     "description": "Разбор уровней HSK 1–6: что реально умеет ученик, какие навыки критичны, сколько времени обычно нужно и где чаще всего спотыкаются. Полезно для выбора цели, планирования занятий и подготовки к экзамену без лишней воды.",
-    "source_url": "https://bonihua.ru/datasets/hsk-levels",
+    "source_url": "https://www.bonihua.com/datasets/hsk-levels",
     "mirror_url": "https://bonihua.by/datasets/hsk-levels",
     "source_urls": [
-      "https://bonihua.ru/datasets/hsk-levels",
+      "https://www.bonihua.com/datasets/hsk-levels",
       "https://bonihua.by/datasets/hsk-levels"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-levels",
@@ -111,10 +111,10 @@
     "id": "hsk-vocab-sets",
     "title": "HSK словарь по уровням — тематические наборы",
     "description": "Срезы словаря HSK по уровням и темам: что реально нужно для диалогов, чтения и экзамена. Наборы помогают учить слова в контексте, а не бессвязным списком, и быстрее выходить на практику.",
-    "source_url": "https://bonihua.ru/datasets/hsk-vocab-sets",
+    "source_url": "https://www.bonihua.com/datasets/hsk-vocab-sets",
     "mirror_url": "https://bonihua.by/datasets/hsk-vocab-sets",
     "source_urls": [
-      "https://bonihua.ru/datasets/hsk-vocab-sets",
+      "https://www.bonihua.com/datasets/hsk-vocab-sets",
       "https://bonihua.by/datasets/hsk-vocab-sets"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-vocab-sets",
@@ -129,10 +129,10 @@
     "id": "learning-goals",
     "title": "Цели обучения китайскому — понятные треки",
     "description": "Каталог целей обучения: путешествия, HSK, рабочая переписка, разговорные встречи. Помогает выбрать маршрут и критерии результата, а не учиться «в бесконечность».",
-    "source_url": "https://bonihua.ru/datasets/learning-goals",
+    "source_url": "https://www.bonihua.com/datasets/learning-goals",
     "mirror_url": "https://bonihua.by/datasets/learning-goals",
     "source_urls": [
-      "https://bonihua.ru/datasets/learning-goals",
+      "https://www.bonihua.com/datasets/learning-goals",
       "https://bonihua.by/datasets/learning-goals"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/learning-goals",
@@ -147,10 +147,10 @@
     "id": "exercise-bank",
     "title": "База упражнений по китайскому — навык, уровень, время",
     "description": "Упражнения по навыкам и уровням: фонетика, говорение, письмо, чтение. Каждое упражнение помечено по времени и цели, чтобы легко собрать урок или план практики.",
-    "source_url": "https://bonihua.ru/datasets/exercise-bank",
+    "source_url": "https://www.bonihua.com/datasets/exercise-bank",
     "mirror_url": "https://bonihua.by/datasets/exercise-bank",
     "source_urls": [
-      "https://bonihua.ru/datasets/exercise-bank",
+      "https://www.bonihua.com/datasets/exercise-bank",
       "https://bonihua.by/datasets/exercise-bank"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/exercise-bank",
@@ -165,10 +165,10 @@
     "id": "assessment-checklists",
     "title": "Диагностика уровня китайского — чек‑листы",
     "description": "Чек‑листы для оценки уровня и прогресса: что проверить, как оценить и какие признаки уровня считать ключевыми. Полезно преподавателям и ученикам перед сменой уровня или цели.",
-    "source_url": "https://bonihua.ru/datasets/assessment-checklists",
+    "source_url": "https://www.bonihua.com/datasets/assessment-checklists",
     "mirror_url": "https://bonihua.by/datasets/assessment-checklists",
     "source_urls": [
-      "https://bonihua.ru/datasets/assessment-checklists",
+      "https://www.bonihua.com/datasets/assessment-checklists",
       "https://bonihua.by/datasets/assessment-checklists"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/assessment-checklists",
@@ -183,10 +183,10 @@
     "id": "lesson-plan-templates",
     "title": "Шаблоны планов уроков китайского",
     "description": "Готовые планы уроков по уровням и целям: структура, блоки, длительность, фокус навыков. Помогают преподавателю собрать урок без лишних импровизаций и держать результат.",
-    "source_url": "https://bonihua.ru/datasets/lesson-plan-templates",
+    "source_url": "https://www.bonihua.com/datasets/lesson-plan-templates",
     "mirror_url": "https://bonihua.by/datasets/lesson-plan-templates",
     "source_urls": [
-      "https://bonihua.ru/datasets/lesson-plan-templates",
+      "https://www.bonihua.com/datasets/lesson-plan-templates",
       "https://bonihua.by/datasets/lesson-plan-templates"
     ],
     "github_url": "https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/lesson-plan-templates",
