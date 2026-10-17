@@ -5,12 +5,12 @@
     "version": "0.1.0",
     "license": "CC-BY-NC-SA-4.0",
     "updatedAt": "2026-03-07T09:00:10.821Z",
-    "source_url": "https://www.bonihua.ru/datasets/dialog-templates",
+    "source_url": "https://www.bonihua.com/datasets/dialog-templates",
     "author": "Редакция Бонихуа",
-    "license_url": "https://www.bonihua.ru/datasets/dialog-templates/license",
+    "license_url": "https://www.bonihua.com/datasets/dialog-templates/license",
     "updated_at": "2026-03-07T09:00:10.821Z",
-    "cite_as": "Редакция Бонихуа (2026). Шаблоны диалогов на китайском — по уровням. https://www.bonihua.ru/datasets/dialog-templates",
-    "changelog_url": "https://www.bonihua.ru/datasets/dialog-templates/changelog",
+    "cite_as": "Редакция Бонихуа (2026). Шаблоны диалогов на китайском — по уровням. https://www.bonihua.com/datasets/dialog-templates",
+    "changelog_url": "https://www.bonihua.com/datasets/dialog-templates/changelog",
     "methodology": {
       "source": "Источник: datasets/learning/dialog-templates.jsonl + реестр /lib/datasets/registry.ts",
       "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/dialog-templates",
+      "canonical_url": "https://www.bonihua.com/datasets/dialog-templates",
       "id": "dialog:introductions",
       "slug": "introductions",
       "name": {
@@ -110,7 +110,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/dialog-templates",
+      "canonical_url": "https://www.bonihua.com/datasets/dialog-templates",
       "id": "dialog:reschedule",
       "slug": "reschedule",
       "name": {
@@ -196,7 +196,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/dialog-templates",
+      "canonical_url": "https://www.bonihua.com/datasets/dialog-templates",
       "id": "dialog:cafe-order",
       "slug": "cafe-order",
       "name": {

@@ -16,12 +16,12 @@
 
 Источник на сайте Бонихуа:
 
-- https://bonihua.ru/datasets/grammar-topics
+- https://www.bonihua.com/datasets/grammar-topics
 - https://bonihua.by/datasets/grammar-topics
 
 Как цитировать:
 
-- Бонихуа. Грамматика китайского — темы и типовые ошибки. https://bonihua.ru/datasets/grammar-topics
+- Бонихуа. Грамматика китайского — темы и типовые ошибки. https://www.bonihua.com/datasets/grammar-topics
 - Бонихуа. Грамматика китайского — темы и типовые ошибки. https://bonihua.by/datasets/grammar-topics
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/grammar-topics
 - Zenodo DOI: https://doi.org/10.5281/zenodo.18860085

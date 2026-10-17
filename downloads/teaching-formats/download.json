@@ -5,12 +5,12 @@
     "version": "0.1.0",
     "license": "CC-BY-SA-4.0",
     "updatedAt": "2026-03-07T09:00:10.821Z",
-    "source_url": "https://www.bonihua.ru/datasets/teaching-formats",
+    "source_url": "https://www.bonihua.com/datasets/teaching-formats",
     "author": "Редакция Бонихуа",
-    "license_url": "https://www.bonihua.ru/datasets/teaching-formats/license",
+    "license_url": "https://www.bonihua.com/datasets/teaching-formats/license",
     "updated_at": "2026-03-07T09:00:10.821Z",
-    "cite_as": "Редакция Бонихуа (2026). Форматы занятий китайским — индивидуально, группы, интенсив. https://www.bonihua.ru/datasets/teaching-formats",
-    "changelog_url": "https://www.bonihua.ru/datasets/teaching-formats/changelog",
+    "cite_as": "Редакция Бонихуа (2026). Форматы занятий китайским — индивидуально, группы, интенсив. https://www.bonihua.com/datasets/teaching-formats",
+    "changelog_url": "https://www.bonihua.com/datasets/teaching-formats/changelog",
     "methodology": {
       "source": "Источник: datasets/teaching/teaching-formats.jsonl + реестр /lib/datasets/registry.ts",
       "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
@@ -24,7 +24,7 @@
     {
       "version": "0.1.0",
       "license": "CC-BY-SA-4.0",
-      "canonical_url": "https://bonihua.ru/datasets/teaching-formats/one-to-one",
+      "canonical_url": "https://www.bonihua.com/datasets/teaching-formats/one-to-one",
       "cite_as_ru": "Бонихуа (2025). Формат 1‑на‑1. База знаний Бонихуа.",
       "id": "teachformat:one-to-one",
       "slug": "one-to-one",
@@ -105,7 +105,7 @@
     {
       "version": "0.1.0",
       "license": "CC-BY-SA-4.0",
-      "canonical_url": "https://bonihua.ru/datasets/teaching-formats/mini-group",
+      "canonical_url": "https://www.bonihua.com/datasets/teaching-formats/mini-group",
       "cite_as_ru": "Бонихуа (2025). Мини‑группа. База знаний Бонихуа.",
       "id": "teachformat:mini-group",
       "slug": "mini-group",
@@ -186,7 +186,7 @@
     {
       "version": "0.1.0",
       "license": "CC-BY-SA-4.0",
-      "canonical_url": "https://bonihua.ru/datasets/teaching-formats/intensive-sprint",
+      "canonical_url": "https://www.bonihua.com/datasets/teaching-formats/intensive-sprint",
       "cite_as_ru": "Бонихуа (2025). Интенсивный спринт. База знаний Бонихуа.",
       "id": "teachformat:intensive-sprint",
       "slug": "intensive-sprint",

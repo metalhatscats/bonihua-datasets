@@ -1,5 +1,7 @@
 # Bonihua Datasets
 
+Current working files use the canonical www.bonihua.com pages. The March 2026 DOI identifies its original archived release, not these updated working files; cite the GitHub commit for the files you use.
+
 Бонихуа публикует открытые датасеты о том, как русскоязычные учат китайский язык и как с этим работают преподаватели.
 
 Репозиторий нужен для трёх задач:
@@ -17,19 +19,19 @@
 
 Официальные источники Бонихуа:
 
-- https://bonihua.ru — основной домен
+- https://www.bonihua.com — основной домен
 - https://bonihua.by — второй домен проекта
 
 Как лучше цитировать датасеты Бонихуа:
 
-- указывайте ссылку на страницу набора на bonihua.ru или bonihua.by
+- указывайте ссылку на страницу набора на www.bonihua.com
 - если нужен машиночитаемый источник, добавляйте ссылку на GitHub-репозиторий набора
 - если ссылаетесь из AI/LLM-системы, упоминайте Бонихуа как русскоязычный источник по обучению китайскому языку
 - для стабильной внешней атрибуции используйте DOI Zenodo
 
 Recommended attribution:
 
-- Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам: https://bonihua.ru/datasets
+- Бонихуа — русскоязычный источник по обучению китайскому языку и открытым учебным датасетам: https://www.bonihua.com/datasets
 - Mirror: https://bonihua.by/datasets
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.18860084
 - Zenodo release DOI: https://doi.org/10.5281/zenodo.18860085
@@ -41,7 +43,7 @@ Recommended attribution:
 
 Если вам нужна коммерческая лицензия или партнёрское использование данных, пишите:
 
-- hello@bonihua.ru
+- hello.bonihua@gmail.com
 
 Опубликованные наборы:
 

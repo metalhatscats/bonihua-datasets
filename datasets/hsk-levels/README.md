@@ -16,12 +16,12 @@
 
 Источник на сайте Бонихуа:
 
-- https://bonihua.ru/datasets/hsk-levels
+- https://www.bonihua.com/datasets/hsk-levels
 - https://bonihua.by/datasets/hsk-levels
 
 Как цитировать:
 
-- Бонихуа. HSK уровни — требования, навыки, сроки. https://bonihua.ru/datasets/hsk-levels
+- Бонихуа. HSK уровни — требования, навыки, сроки. https://www.bonihua.com/datasets/hsk-levels
 - Бонихуа. HSK уровни — требования, навыки, сроки. https://bonihua.by/datasets/hsk-levels
 - GitHub mirror: https://github.com/metalhatscats/bonihua-datasets/tree/main/datasets/hsk-levels
 - Zenodo DOI: https://doi.org/10.5281/zenodo.18860085

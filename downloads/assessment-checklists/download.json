@@ -5,12 +5,12 @@
     "version": "0.1.0",
     "license": "CC-BY-NC-SA-4.0",
     "updatedAt": "2026-03-07T09:00:10.821Z",
-    "source_url": "https://www.bonihua.ru/datasets/assessment-checklists",
+    "source_url": "https://www.bonihua.com/datasets/assessment-checklists",
     "author": "Редакция Бонихуа",
-    "license_url": "https://www.bonihua.ru/datasets/assessment-checklists/license",
+    "license_url": "https://www.bonihua.com/datasets/assessment-checklists/license",
     "updated_at": "2026-03-07T09:00:10.821Z",
-    "cite_as": "Редакция Бонихуа (2026). Диагностика уровня китайского — чек‑листы. https://www.bonihua.ru/datasets/assessment-checklists",
-    "changelog_url": "https://www.bonihua.ru/datasets/assessment-checklists/changelog",
+    "cite_as": "Редакция Бонихуа (2026). Диагностика уровня китайского — чек‑листы. https://www.bonihua.com/datasets/assessment-checklists",
+    "changelog_url": "https://www.bonihua.com/datasets/assessment-checklists/changelog",
     "methodology": {
       "source": "Источник: datasets/teaching/assessment-checklists.jsonl + реестр /lib/datasets/registry.ts",
       "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/assessment-checklists",
+      "canonical_url": "https://www.bonihua.com/datasets/assessment-checklists",
       "id": "assessment:hsk1-baseline",
       "slug": "hsk1-baseline",
       "name": {
@@ -104,7 +104,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/assessment-checklists",
+      "canonical_url": "https://www.bonihua.com/datasets/assessment-checklists",
       "id": "assessment:hsk2-speaking",
       "slug": "hsk2-speaking",
       "name": {
@@ -181,7 +181,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Публичный датасет для обучения китайскому языку и исследовательского использования без коммерческой перепродажи.",
-      "canonical_url": "https://bonihua.ru/datasets/assessment-checklists",
+      "canonical_url": "https://www.bonihua.com/datasets/assessment-checklists",
       "id": "assessment:hsk4-writing",
       "slug": "hsk4-writing",
       "name": {

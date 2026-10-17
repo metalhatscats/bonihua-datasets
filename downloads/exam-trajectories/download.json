@@ -5,12 +5,12 @@
     "version": "0.1.0",
     "license": "CC-BY-NC-SA-4.0",
     "updatedAt": "2026-03-07T09:00:10.821Z",
-    "source_url": "https://www.bonihua.ru/datasets/exam-trajectories",
+    "source_url": "https://www.bonihua.com/datasets/exam-trajectories",
     "author": "Редакция Бонихуа",
-    "license_url": "https://www.bonihua.ru/datasets/exam-trajectories/license",
+    "license_url": "https://www.bonihua.com/datasets/exam-trajectories/license",
     "updated_at": "2026-03-07T09:00:10.821Z",
-    "cite_as": "Редакция Бонихуа (2026). Маршруты подготовки к экзаменам — цель, план, ошибки, материалы. https://www.bonihua.ru/datasets/exam-trajectories",
-    "changelog_url": "https://www.bonihua.ru/datasets/exam-trajectories/changelog",
+    "cite_as": "Редакция Бонихуа (2026). Маршруты подготовки к экзаменам — цель, план, ошибки, материалы. https://www.bonihua.com/datasets/exam-trajectories",
+    "changelog_url": "https://www.bonihua.com/datasets/exam-trajectories/changelog",
     "methodology": {
       "source": "Источник: datasets/learning/exam-trajectories.jsonl + реестр /lib/datasets/registry.ts",
       "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Экзаменационный маршрут подготовлен на основе внутренних датасетов уровней, словаря, методик и диагностики.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/s-nulya-do-hsk2-za-12-nedel",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/s-nulya-do-hsk2-za-12-nedel",
       "id": "trajectory:s-nulya-do-hsk2-za-12-nedel",
       "slug": "s-nulya-do-hsk2-za-12-nedel",
       "name": {
@@ -154,7 +154,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Экзаменационный маршрут подготовлен на основе внутренних датасетов уровней, словаря, speaking-диагностики и методик.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/iz-hsk2-v-hsk3-bez-plato",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/iz-hsk2-v-hsk3-bez-plato",
       "id": "trajectory:iz-hsk2-v-hsk3-bez-plato",
       "slug": "iz-hsk2-v-hsk3-bez-plato",
       "name": {
@@ -279,7 +279,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Экзаменационный маршрут подготовлен на основе внутренних датасетов уровней, письма, speaking и методик повторения.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/iz-hsk3-v-hsk4-chtenie-i-pismo",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/iz-hsk3-v-hsk4-chtenie-i-pismo",
       "id": "trajectory:iz-hsk3-v-hsk4-chtenie-i-pismo",
       "slug": "iz-hsk3-v-hsk4-chtenie-i-pismo",
       "name": {
@@ -404,7 +404,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Speaking-маршрут собран на основе внутренних датасетов речи, speaking-диагностики и методов shadowing/chunking.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/hskk-srednij-svyaznaya-rech-za-8-nedel",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/hskk-srednij-svyaznaya-rech-za-8-nedel",
       "id": "trajectory:hskk-srednij-svyaznaya-rech-za-8-nedel",
       "slug": "hskk-srednij-svyaznaya-rech-za-8-nedel",
       "name": {
@@ -515,7 +515,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Маршрут собран на основе внутренних work-датасетов: переписка, словарь, индустрии и коммуникационные паттерны.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/bct-delovaya-perepiska-i-sozvony-za-10-nedel",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/bct-delovaya-perepiska-i-sozvony-za-10-nedel",
       "id": "trajectory:bct-delovaya-perepiska-i-sozvony-za-10-nedel",
       "slug": "bct-delovaya-perepiska-i-sozvony-za-10-nedel",
       "name": {
@@ -640,7 +640,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Детский маршрут собран на основе внутренних датасетов базового уровня, survival-сценариев и методик короткого повторения.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/yct-start-dlya-shkolnika-za-12-nedel",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/yct-start-dlya-shkolnika-za-12-nedel",
       "id": "trajectory:yct-start-dlya-shkolnika-za-12-nedel",
       "slug": "yct-start-dlya-shkolnika-za-12-nedel",
       "name": {
@@ -759,7 +759,7 @@
       "version": "0.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "provenance": "Редакция Бонихуа. Маршрут подготовлен для входа в профессиональный медицинский китайский через сценарии, а не через отдельные термины.",
-      "canonical_url": "https://bonihua.ru/datasets/exam-trajectories/mct-meditsinskiy-kitayskiy-za-12-nedel",
+      "canonical_url": "https://www.bonihua.com/datasets/exam-trajectories/mct-meditsinskiy-kitayskiy-za-12-nedel",
       "id": "trajectory:mct-meditsinskiy-kitayskiy-za-12-nedel",
       "slug": "mct-meditsinskiy-kitayskiy-za-12-nedel",
       "name": {
