@@ -7,10 +7,10 @@
     "updatedAt": "2026-03-07T09:00:10.821Z",
     "source_url": "https://www.bonihua.com/by/datasets/ct-chinese-prep",
     "author": "Редакция Бонихуа",
-    "license_url": "https://www.bonihua.com/by/datasets/ct-chinese-prep/license",
+    "license_url": "https://www.bonihua.com/datasets/ct-chinese-prep/license",
     "updated_at": "2026-03-07T09:00:10.821Z",
     "cite_as": "Редакция Бонихуа (2026). ЦТ по китайскому (РБ) — подготовка и стратегия. https://www.bonihua.com/by/datasets/ct-chinese-prep",
-    "changelog_url": "https://www.bonihua.com/by/datasets/ct-chinese-prep/changelog",
+    "changelog_url": "https://www.bonihua.com/datasets/ct-chinese-prep/changelog",
     "methodology": {
       "source": "Источник: datasets/learning/ct-chinese-prep.jsonl + реестр /lib/datasets/registry.ts",
       "validation": "Валидация схемой Zod, проверка связей related_ids и статическая сборка маршрутов.",
